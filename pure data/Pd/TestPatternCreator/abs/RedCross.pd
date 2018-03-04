@@ -1,0 +1,50 @@
+#N canvas 346 273 865 569 10;
+#X obj 186 89 inlet;
+#X obj 548 95 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 469 95 full cross;
+#X obj 450 98 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 578 110 middle cross;
+#X obj 437 60 s /RedCross/width/plus;
+#X obj 437 36 r \$0-plus;
+#X floatatom 67 51 5 0 0 0 - - -, f 5;
+#X obj 67 76 s \$0-plus;
+#X obj 67 268 RedLineX -33 32;
+#X obj 244 269 RedLineY -33 32;
+#X msg 540 139 -3;
+#X msg 578 139 1;
+#X obj 119 224 r \$0-start;
+#X obj 169 244 r \$0-stop;
+#X obj 293 226 r \$0-start;
+#X obj 343 246 r \$0-stop;
+#X obj 473 186 s \$0-start;
+#X obj 523 206 s \$0-stop;
+#X msg 448 150 -33;
+#X msg 480 150 32;
+#X obj 144 36 loadbang;
+#X msg 66 30 2;
+#X obj 63 235 tgl 25 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 242 209 tgl 25 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X connect 0 0 24 0;
+#X connect 0 0 23 0;
+#X connect 1 0 11 0;
+#X connect 1 0 12 0;
+#X connect 3 0 19 0;
+#X connect 3 0 20 0;
+#X connect 6 0 5 0;
+#X connect 7 0 8 0;
+#X connect 11 0 17 0;
+#X connect 12 0 18 0;
+#X connect 13 0 9 1;
+#X connect 14 0 9 2;
+#X connect 15 0 10 1;
+#X connect 16 0 10 2;
+#X connect 19 0 17 0;
+#X connect 20 0 18 0;
+#X connect 21 0 22 0;
+#X connect 22 0 7 0;
+#X connect 23 0 9 0;
+#X connect 24 0 10 0;

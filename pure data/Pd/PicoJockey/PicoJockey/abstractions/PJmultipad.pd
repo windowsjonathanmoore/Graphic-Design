@@ -1,0 +1,99 @@
+#N canvas 210 37 652 425 10;
+#X obj 422 3 cnv 15 15 15 \$0-canvassend \$0-canvasreceive empty 24
+36 0 50 -16662 -260097 0;
+#X obj 419 109 xyob beat1;
+#N canvas 724 53 462 333 init 0;
+#X obj 67 15 loadbang;
+#X text 46 188 slicycle 1;
+#X text 244 188 slicycle 2;
+#X obj 24 15 inlet;
+#X obj 24 47 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 239 284 global;
+#X text 43 279 in - out;
+#X msg 24 222 \; inlevelguisend init 180 260 \; reverbguisend init
+200 360 \;;
+#X msg 241 76 \; beat2guisend init 30 275 \; quaver2guisend init 120
+200 \; squaver2guisend init 110 20 \; filter2guisend init 340 300 \;
+krunch2guisend init 0 360 \; delay2guisend init 255 360 \; reverb2guisend
+init 140 330 \;;
+#X msg 241 223 \; crossfaderguisend init 200 30 \; globalpitchguisend
+init 200 175 \; BPM/grooveguisend init 20 140 \;;
+#X msg 24 76 \; beat1guisend init 80 295 \; quaver1guisend init 75
+210 \; squaver1guisend init 120 50 \; filter1guisend init 280 310 \;
+krunch1guisend init 35 350 \; delay1guisend init 300 360 \; reverb1guisend
+init 130 280 \;;
+#X connect 0 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 10 0;
+#X connect 4 0 8 0;
+#X connect 4 0 9 0;
+#X connect 4 0 7 0;
+#X restore 422 64 pd init;
+#X obj 422 39 bng 17 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 418 89 slicycle ----------------------;
+#X text 417 301 global ------------------------;
+#X obj 80 295 vradio 40 1 0 1 beat1guisend beat1guireceive o 5 18 1
+54 -262144 -262144 -1 0;
+#X obj 30 275 vradio 40 1 0 1 beat2guisend beat2guireceive o 5 18 1
+54 -162280 -162280 -1 0;
+#X obj 75 210 vradio 40 1 0 1 quaver1guisend quaver1guireceive oo 2
+21 1 34 -262144 -262144 -1 0;
+#X obj 120 200 vradio 40 1 0 1 quaver2guisend quaver2guireceive oo
+2 21 1 34 -162280 -162280 -1 0;
+#X obj 120 50 vradio 40 1 0 1 squaver1guisend squaver1guireceive oooo
+2 21 1 16 -262144 -262144 -1 0;
+#X obj 110 20 vradio 40 1 0 1 squaver2guisend squaver2guireceive oooo
+2 21 1 16 -162280 -162280 -1 0;
+#X obj 130 280 vradio 40 1 0 1 reverb1guisend reverb1guireceive )))
+4 20 1 35 -262144 -262144 -1 0;
+#X obj 140 330 vradio 40 1 0 1 reverb2guisend reverb2guireceive )))
+4 20 1 35 -162280 -162280 -1 0;
+#X obj 280 310 vradio 40 1 0 1 filter1guisend filter1guireceive ---
+2 20 1 35 -262144 -262144 -1 0;
+#X obj 340 300 vradio 40 1 0 1 filter2guisend filter2guireceive ---
+2 20 1 35 -162280 -162280 -1 0;
+#X obj 35 350 vradio 40 1 0 1 krunch1guisend krunch1guireceive ++ 2
+20 1 32 -262144 -262144 -1 0;
+#X obj 0 360 vradio 40 1 0 1 krunch2guisend krunch2guireceive ++ 2
+20 1 32 -162280 -162280 -1 0;
+#X obj 300 360 vradio 40 1 0 1 delay1guisend delay1guireceive ]]]]
+3 20 1 32 -262144 -262144 -1 0;
+#X obj 255 360 vradio 40 1 0 1 delay2guisend delay2guireceive ]]]]
+3 20 1 32 -162280 -162280 -1 0;
+#X obj 200 30 vradio 40 1 0 1 crossfaderguisend crossfaderguireceive
+X 5 23 1 46 -33289 -33289 -262144 0;
+#X obj 180 260 vradio 40 1 0 1 inlevelguisend inlevelguireceive > 6
+20 1 48 -33289 -33289 -262144 0;
+#X obj 200 360 vradio 40 1 0 1 reverbguisend reverbguireceive ))) 4
+20 1 35 -33289 -33289 -262144 0;
+#X obj 200 175 vradio 40 1 0 1 globalpitchguisend globalpitchguireceive
+^^ 1 21 1 40 -33289 -33289 -262144 0;
+#X obj 1 1 cnv 4 4 4 empty helpcanvas empty 20 40 1 40 -16662 -16662
+0;
+#X obj 418 265 xyob reverb1;
+#X obj 530 266 xyob reverb2;
+#X obj 531 109 xyob beat2;
+#X obj 419 134 xyob quaver1;
+#X obj 531 135 xyob quaver2;
+#X obj 419 159 xyob squaver1;
+#X obj 531 160 xyob squaver2;
+#X obj 419 186 xyob filter1;
+#X obj 531 186 xyob filter2;
+#X obj 419 213 xyob krunch1;
+#X obj 531 213 xyob krunch2;
+#X obj 419 240 xyob delay1;
+#X obj 531 241 xyob delay2;
+#X obj 419 329 xyob crossfader;
+#X obj 420 357 xyob inlevel;
+#X obj 478 64 s crossfaderguireceive;
+#X msg 478 40 color 14 14 22;
+#X obj 531 357 xyob reverb;
+#X obj 531 329 xyob BPM/groove;
+#X obj 20 140 vradio 40 1 0 1 BPM/grooveguisend BPM/grooveguireceive
+132 2 22 1 20 -33289 -33289 -262144 0;
+#X obj 531 384 xyob globalpitch;
+#X connect 3 0 2 0;
+#X connect 41 0 40 0;
+#X coords 0 -1 1 1 400 400 2 0 0;

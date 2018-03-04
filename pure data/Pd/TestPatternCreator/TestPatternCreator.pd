@@ -1,0 +1,95 @@
+#N canvas 37 448 864 517 10;
+#X declare -path ./abs -path ./abs/sssad;
+#X obj 39 33 screen;
+#X obj 41 243 Grid-Curved;
+#X obj 43 178 Background;
+#X obj 158 244 Circles;
+#X obj 643 276 s width;
+#X floatatom 644 256 5 0 0 0 - - -, f 5;
+#X obj 43 148 tgl 25 0 empty empty on 4 -7 0 12 -261682 -1 -1 0 1;
+#X obj 210 9 declare -path ./abs -path ./abs/sssad;
+#X obj 244 295 labels;
+#X obj 631 157 gemhead 999;
+#X obj 631 185 syphonserver TestPattern;
+#X obj 46 296 ColorBars;
+#X obj 158 213 tgl 25 0 empty empty empty 17 7 0 10 -262130 -1 -1 1
+1;
+#X obj 162 297 RedCross;
+#X obj 162 268 tgl 25 0 empty empty empty 17 7 0 10 -203904 -1 -1 0
+1;
+#X obj 244 265 tgl 25 0 empty empty on 5 -6 0 12 -204800 -1 -1 0 1
+;
+#X obj 41 211 tgl 25 0 empty empty empty 17 7 0 10 -228856 -1 -1 1
+1;
+#X obj 46 266 tgl 25 0 empty empty empty 17 7 0 10 -204786 -1 -1 0
+1;
+#X obj 46 353 CopyRightLabel;
+#X obj 46 324 tgl 25 0 empty empty empty 17 7 0 10 -191407 -1 -1 1
+1;
+#X obj 175 354 Legend;
+#X obj 175 324 tgl 25 0 empty empty empty 17 7 0 10 -204786 -1 -1 0
+1;
+#X msg 647 231 2;
+#X obj 647 212 loadbang;
+#N canvas 0 22 619 310 pix_write 0;
+#X msg 114 83 file PdTestPattern 0;
+#X obj 46 89 bng 25 250 50 0 empty empty empty 17 7 0 10 -232576 -1
+-1;
+#X obj 81 158 pix_write 0 0 1920 1080;
+#X obj 81 51 gemhead 101;
+#X obj 184 55 loadbang;
+#X msg 124 104 file PdTestPattern 99;
+#X obj 312 82 r /screen/size/x;
+#X obj 354 102 r /screen/size/y;
+#X obj 325 178 pack f f;
+#X obj 355 126 t b f;
+#X floatatom 381 159 5 0 0 0 - - -, f 5;
+#X floatatom 323 157 5 0 0 0 - - -, f 5;
+#X obj 30 32 inlet;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 3 0 2 0;
+#X connect 4 0 0 0;
+#X connect 5 0 2 0;
+#X connect 6 0 11 0;
+#X connect 7 0 9 0;
+#X connect 8 0 2 2;
+#X connect 9 0 11 0;
+#X connect 9 1 10 0;
+#X connect 10 0 8 1;
+#X connect 11 0 8 0;
+#X connect 12 0 1 0;
+#X restore 367 102 pd pix_write;
+#X obj 366 49 bng 25 250 50 0 empty empty empty 17 7 0 10 -232576 -1
+-1;
+#X obj 272 265 bng 25 250 50 0 empty empty init -1 -7 0 12 -204786
+-1 -1;
+#X obj 299 265 nbx 2 25 0 100 0 0 empty empty size 0 -8 0 12 -262130
+-1 -1 46 256;
+#X obj 71 148 nbx 4 25 0 100 0 0 empty empty color 0 -8 0 12 -262130
+-1 -1 0 256;
+#X obj 111 211 tgl 25 0 empty empty empty 17 7 0 10 -261234 -1 -1 1
+1;
+#X obj 377 296 frame-count;
+#X obj 377 263 tgl 25 0 empty empty empty 17 7 0 10 -262130 -1 -1 0
+1;
+#X connect 5 0 4 0;
+#X connect 6 0 2 0;
+#X connect 9 0 10 0;
+#X connect 12 0 3 0;
+#X connect 14 0 13 0;
+#X connect 15 0 8 0;
+#X connect 16 0 1 0;
+#X connect 17 0 11 0;
+#X connect 19 0 18 0;
+#X connect 21 0 20 0;
+#X connect 22 0 5 0;
+#X connect 23 0 22 0;
+#X connect 25 0 24 0;
+#X connect 26 0 8 1;
+#X connect 27 0 8 2;
+#X connect 28 0 2 1;
+#X connect 28 0 2 2;
+#X connect 28 0 2 3;
+#X connect 29 0 1 1;
+#X connect 31 0 30 0;
