@@ -1,0 +1,5 @@
+This folder contains a language written in Java that I'm forking an calling Set. 
+I'm reading the Dragon Book and ANTLR to learn more. 
+
+© Jonathan Moore 2017
+
