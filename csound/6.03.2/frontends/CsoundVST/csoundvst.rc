@@ -1,0 +1,2 @@
+#include <windows.h>
+csoundvst ICON frontends/CsoundVST/csound.ico

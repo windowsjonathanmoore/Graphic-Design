@@ -1,0 +1,27 @@
+Dear CsoundForLive Full Collection Updaters
+
+Here are some additional installation instructions:
+
+MacUsers
+
+The plugins no longer have csound~ embedded in them, and so....
+- You need to install csound~ 
+
+If you have yet to manually install the csound~ external, you should
+download the most recent csound~ from http://davixology.com/csound~.html
+
+- Max5 Users: 
+use the automated installer and choose the "doubles" version.
+
+- Max6 Users (or recent purchasers of the Full Collection): 
+a. unarchive "csound~_v1.1.0.zip"
+b. copy the file "csound~_double.mxo" into the folder:
+       /Applications/Max6/Cycling '74/msp-externals 
+c. rename the file from "csound~_double.mxo" to "csound~.mxo"
+
+PcUsers
+You have probably already installed csound~ and so, you should be OK.
+
+Dr.B.
+
+
