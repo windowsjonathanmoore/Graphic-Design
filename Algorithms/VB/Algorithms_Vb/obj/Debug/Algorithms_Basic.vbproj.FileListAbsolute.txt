@@ -1,0 +1,8 @@
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\bin\Debug\Algorithms_Vb.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\bin\Debug\Algorithms_Vb.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\bin\Debug\Algorithms_Vb.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\obj\Debug\Algorithms_Vb.Resources.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\obj\Debug\Algorithms_Basic.vbproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\obj\Debug\Algorithms_Vb.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\obj\Debug\Algorithms_Vb.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2010\Projects\Windows\_MyFiles\Apps\Algorithms\source\VB\Algorithms_Vb\obj\Debug\Algorithms_Vb.pdb

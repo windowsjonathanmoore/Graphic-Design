@@ -1,0 +1,31 @@
+libcalg_la-hash-string.lo: hash-string.c /usr/include/ctype.h \
+ /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/stddef.h hash-string.h
+
+/usr/include/ctype.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/_newlib_version.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/stddef.h:
+
+hash-string.h:

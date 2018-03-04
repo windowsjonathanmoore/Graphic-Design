@@ -1,0 +1,9 @@
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\bin\Debug\AlgorithmsTests1.dll
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\bin\Debug\AlgorithmsTests1.pdb
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\bin\Debug\Algorithms.dll
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\bin\Debug\Algorithms.pdb
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\obj\Debug\AlgorithmsTests1.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\obj\Debug\AlgorithmsTests1.dll
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\AlgorithmsTests1\obj\Debug\AlgorithmsTests1.pdb

@@ -1,0 +1,15 @@
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\Jonathan_Moore\Documents\Singularity+\trunk\Fundamentals\C#\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\Jonathan_Moore\research\github\Fundamentals\C#\src\bin\Debug\Algorithms.dll
+C:\Users\Jonathan_Moore\research\github\Fundamentals\C#\src\bin\Debug\Algorithms.pdb
+C:\Users\Jonathan_Moore\research\github\Fundamentals\C#\src\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\research\github\Fundamentals\C#\src\obj\Debug\Algorithms.dll
+C:\Users\Jonathan_Moore\research\github\Fundamentals\C#\src\obj\Debug\Algorithms.pdb
+D:\github\fundamentals\C#\src\bin\Debug\Algorithms.dll
+D:\github\fundamentals\C#\src\bin\Debug\Algorithms.pdb
+D:\github\fundamentals\C#\src\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+D:\github\fundamentals\C#\src\obj\Debug\Algorithms.dll
+D:\github\fundamentals\C#\src\obj\Debug\Algorithms.pdb

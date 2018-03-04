@@ -1,0 +1,222 @@
+!
+!  node_test.f90
+!  This file is part of FIAT.
+!
+!  Copyright 2016 Christopher MacMackin <cmacmackin@gmail.com>
+!  
+!  This program is free software; you can redistribute it and/or modify
+!  it under the terms of the GNU Lesser General Public License as
+!  published by the Free Software Foundation; either version 3 of the 
+!  License, or (at your option) any later version.
+!  
+!  This program is distributed in the hope that it will be useful,
+!  but WITHOUT ANY WARRANTY; without even the implied warranty of
+!  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!  GNU Lesser General Public License for more details.
+!  
+!  You should have received a copy of the GNU Lesser General Public
+!  License along with this program; if not, write to the Free Software
+!  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+!  MA 02110-1301, USA.
+!  
+
+module container_test_mod
+  use pfunit_mod
+  use container_mod
+  use abstract_container_mod
+  use iso_fortran_env, only: i1 => int8, i2 => int16, i4 => int32, &
+                             i8 => int64, r4 => real32, r8 => real64, &
+                             r16 => real128
+  implicit none
+
+@TestParameter
+  type, extends(abstracttestparameter) :: container_case
+    class(container), allocatable :: container_obj
+    class(*), allocatable :: inval, outval
+    character(len=32) :: container_name
+  contains
+    procedure :: tostring
+    final :: container_case_final
+  end type container_case
+  
+@TestCase(testParameters={get_params()}, constructor=new_test)
+  type, extends(parameterizedtestcase) :: test_container
+    class(container), allocatable :: container_obj
+    class(*), allocatable :: inval, outval
+    character(len=32) :: container_name
+  end type test_container
+
+contains
+
+  type(container_case) function constructor(cont, inval, outval, cont_name)
+    class(container), intent(inout) :: cont
+    class(*), intent(inout) :: inval, outval
+    character(len=*), intent(in) :: cont_name
+    allocate(constructor%container_obj, source=cont)
+    allocate(constructor%inval, source=inval)
+    allocate(constructor%outval, source=outval)
+    constructor%container_name = cont_name
+  end function constructor
+  
+  subroutine container_case_final(this)
+    type(container_case), intent(inout) :: this
+    if (allocated(this%container_obj)) deallocate(this%container_obj)
+    if (allocated(this%inval)) deallocate(this%inval)
+    if (allocated(this%outval)) deallocate(this%outval)
+  end subroutine container_case_final
+  
+  type(test_container) function new_test(param)
+    type(container_case), intent(in) :: param
+    allocate(new_test%container_obj, source=param%container_obj)
+    allocate(new_test%inval, source=param%inval)
+    allocate(new_test%outval, source=param%outval)
+    new_test%container_name = param%container_name
+  end function new_test
+
+  function tostring(this) result(string)
+    class(container_case), intent(in) :: this
+    character(:), allocatable :: string
+    string = "Dynamic type "//trim(this%container_name)
+  end function tostring
+  
+  function get_params() result(params)
+    type(container_case), allocatable :: params(:)
+    type(character_container) :: char_c
+    type(complex_container) :: comp_c
+    type(complex4_container) :: comp4_c
+    type(complex8_container) :: comp8_c
+    type(complex16_container) :: comp16_c
+    type(int_container) :: int_c
+    type(int1_container) :: int1_c
+    type(int2_container) :: int2_c
+    type(int4_container) :: int4_c
+    type(int8_container) :: int8_c
+    type(logical_container) :: log_c
+    type(real_container) :: real_c
+    type(real4_container) :: real4_c
+    type(real8_container) :: real8_c
+    type(real16_container) :: real16_c
+    character(len=12) :: charin = 'Hello world!', charout = ''
+    complex :: compin = (1.0, 2.0), compout = (0.0, 0.0)
+    complex(r4) :: comp4in = (1.0_r4, 2.0_r4), comp4out = (0.0_r4, 0.0_r4)
+    complex(r8) :: comp8in = (1.0_r8, 2.0_r8), comp8out = (0.0_r8, 0.0_r8)
+    complex(r16) :: comp16in = (1.0_r16, 2.0_r16), comp16out = (0.0_r16, 0.0_r16)
+    logical :: login = .true., logout = .false.
+    integer :: intin = 1, intout = 0
+    integer(i1) :: int1in = 1_i1, int1out = 0_i1
+    integer(i2) :: int2in = 1_i2, int2out = 0_i2
+    integer(i4) :: int4in = 1_i4, int4out = 0_i4
+    integer(i8) :: int8in = 1_i8, int8out = 0_i8
+    real :: realin = 1.0, realout = 0.0
+    real(r4) :: real4in = 1.0_r4, real4out = 0.0_r4
+    real(r8) :: real8in = 1.0_r8, real8out = 0.0_r8
+    real(r16) :: real16in = 1.0_r16, real16out = 0.0_r16
+    params = [ constructor(char_c, charin, charout, 'character_container'), &
+               constructor(comp_c, compin, compout, 'complex_container'), &
+               constructor(comp4_c, comp4in, comp4out, 'complex4_container'), &
+               constructor(comp8_c, comp8in, comp8out, 'complex8_container'), &
+               constructor(comp16_c, comp16in, comp16out, 'complex16_container'), &
+               constructor(log_c, login, logout, 'logical_container'), &
+               constructor(int_c, intin, intout, 'int_container'), &
+               constructor(int1_c, int1in, int1out, 'int1_container'), &
+               constructor(int2_c, int2in, int2out, 'int2_container'), &
+               constructor(int4_c, int4in, int4out, 'int4_container'), &
+               constructor(int8_c, int8in, int8out, 'int8_container'), &
+               constructor(real_c, realin, realout, 'real_container'), &
+               constructor(real4_c, real4in, real4out, 'real4_container'), &
+               constructor(real8_c, real8in, real8out, 'real8_container'), &
+               constructor(real16_c, real16in, real16out, 'real16_container') ]
+  end function get_params
+
+@Test
+  subroutine test_storage(this)
+    class(test_container), intent(inout) :: this
+    class(container), allocatable :: test_subject1, test_subject2
+    class(*), allocatable :: original_outval
+    integer(i1), dimension(1) :: mold
+    allocate(test_subject1, source=this%container_obj)
+    allocate(original_outval, source=this%outval)
+    @assertFalse(test_subject1%is_filled(),message='container%is_filled returned .true.')
+    call test_subject1%set(this%inval)
+    @assertTrue(test_subject1%is_filled(),message='container%is_filled returned .false.')
+    @assertFalse(all(transfer(this%outval, mold) == transfer(this%inval, mold)), message='OUTVAL set equal to INVAL.')
+    this%outval = test_subject1
+    ! FIXME: This is a cludge to make up for the fact that 16-byte complex numbers don't play nicely with TRANSFER (in this program) and end up leaving the last four array elements not equal.
+    select type(inval => this%inval)
+      type is(complex(r16))
+        select type(outval => this%outval)
+          type is(complex(r16))
+            @assertEqual(real(inval,r8),real(outval,r8), message='Getting wrong value from container.')
+            @assertEqual(real(aimag(inval),r8),real(aimag(outval),r8), message='Getting wrong value from container.')
+        end select
+      class default
+        @assertAll(transfer(this%inval,mold)==transfer(this%outval,mold), message='Getting wrong value from container.')
+    end select
+    allocate(test_subject2, source=this%container_obj)
+    call test_subject2%set(test_subject1)
+    deallocate(this%outval)
+    allocate(this%outval, source=original_outval)
+    this%outval = test_subject2
+    ! FIXME: And here's the cludge again
+    select type(inval => this%inval)
+      type is(complex(r16))
+        select type(outval => this%outval)
+          type is(complex(r16))
+            @assertEqual(real(inval,r8),real(outval,r8), message='Container not set to new value.')
+            @assertEqual(real(aimag(inval),r8),real(aimag(outval),r8), message='Container not set to new value.')
+        end select
+      class default
+        @assertAll(transfer(this%inval, mold)==transfer(this%outval, mold), message='Container not set to new value.')
+    end select
+    call test_subject2%set(original_outval)
+    test_subject2 = test_subject1
+    deallocate(this%outval)
+    allocate(this%outval, source=original_outval)
+    this%outval = test_subject2
+    ! FIXME: And here's the cludge again
+    select type(inval => this%inval)
+      type is(complex(r16))
+        select type(outval => this%outval)
+          type is(complex(r16))
+            @assertEqual(real(inval,r8),real(outval,r8), message='Container not assigned new value.')
+            @assertEqual(real(aimag(inval),r8),real(aimag(outval),r8), message='Container not assigned new value.')
+        end select
+      class default
+        @assertAll(transfer(this%inval, mold)==transfer(this%outval, mold), message='Container not assigned new value.')
+    end select
+    deallocate(test_subject2)
+    allocate(test_subject2, source=this%container_obj)
+    @assertTrue(test_subject1%is_filled(),message='test_subject1 is empty')
+    call test_subject1%set(test_subject2)
+    @assertFalse(test_subject2%is_filled(),message='Container not empty after set to hold empty container.')
+    call test_subject2%set(this%outval)
+    test_subject2 = test_subject1
+    @assertFalse(test_subject2%is_filled(),message='Container not empty after empty container assigned to it.')
+  end subroutine test_storage
+
+@Test
+  subroutine test_equal_operator(this)
+    class(test_container), intent(inout) :: this
+    class(container), allocatable :: test_subject1, test_subject2
+    integer, dimension(1) :: mold
+    allocate(test_subject1, source=this%container_obj)
+    allocate(test_subject2, source=this%container_obj)
+    @assertFalse(all(transfer(this%outval, mold) == transfer(this%inval, mold)), message='OUTVAL set equal to INVAL.')
+    call test_subject1%set(this%inval)
+    call test_subject2%set(this%outval)
+    @assertFalse(test_subject1 == test_subject2, message='Containers with different contents should not be equal.')
+    call test_subject2%set(this%inval)
+    @assertTrue(test_subject1 == test_subject2, message='Containers with the same contents should be equal.')
+  end subroutine test_equal_operator
+
+@Test
+  subroutine test_contents(this)
+    class(test_container), intent(inout) :: this
+    class(container), allocatable :: test_subject
+    integer(i1), dimension(1) :: mold
+    allocate(test_subject, source=this%container_obj)
+    call test_subject%set(this%inval)
+    @assertAll(transfer(this%inval, mold) == int(test_subject%contents()), message='Bad array representation of contents.')
+  end subroutine test_contents
+
+end module container_test_mod
