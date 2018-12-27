@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="D:\AUG\Computer-Art\Algorithms\C#\docs\Documentation1.shfbproj" started="12/27/2018 10:17:09 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="D:\AUG\Computer-Art\Algorithms\C#\docs\Documentation1.shfbproj" started="12/27/2018 10:21:08 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
 Locating components in the following folder(s):
     D:\AUG\Computer-Art\Algorithms\C#\docs
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
 Using framework reflection data for &#39;.NET Framework 4.6.1&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
-Using presentation style &#39;Markdown&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown&#39;
--------------------------------
-Clearing any prior web/markdown output...
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2018.7.8.0
+Copyright &#169; 2006-2018, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -23,16 +27,17 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0020
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/27/2018 10:17:11 AM.
+Build started 12/27/2018 10:21:09 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -49,12 +54,12 @@ GenerateRefInfo:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:01.1021
+    Last step completed in 00:00:00.9626
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 12/27/2018 10:17:11 AM.
+Build started 12/27/2018 10:21:10 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
@@ -71,11 +76,11 @@ TransformManifest:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:00.6450
+    Last step completed in 00:00:00.6440
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -90,28 +95,28 @@ Generating conceptual topic files
     D:\AUG\Computer-Art\Algorithms\C#\docs\Content\VersionHistory\VersionHistory.aml -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\ddueXml\c30893fe-4911-4c33-b5d5-99c604937a2d.xml
     Parsing topic file &#39;D:\AUG\Computer-Art\Algorithms\C#\docs\Content\VersionHistory\v1.0.0.0.aml&#39;
     D:\AUG\Computer-Art\Algorithms\C#\docs\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\ddueXml\517a7995-a0ed-46f6-9f54-e21fdaf44930.xml
-    Last step completed in 00:00:00.0220
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-D:\AUG\Computer-Art\Algorithms\C#\docs\icons\Help.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\icons\Help.png
-    Last step completed in 00:00:00.0040
+D:\AUG\Computer-Art\Algorithms\C#\docs\icons\Help.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/27/2018 10:17:12 AM.
+Build started 12/27/2018 10:21:11 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -120,12 +125,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2760
+    Last step completed in 00:00:00.2984
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0340
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -133,12 +138,12 @@ D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 12/27/2018 10:17:12 AM.
+Build started 12/27/2018 10:21:11 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -210,80 +215,146 @@ BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Final
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:05.4233
+    Last step completed in 00:00:06.9262
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2018.7.8.0
+Copyright c 2006-2018, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1
+Processed 278 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Documentation.hhc
+    Last step completed in 00:00:00.3500
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.2210
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00.3276
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
-Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0010
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
-Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
+Generating HTML Help 1 project file...
     Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="CompilingHelpFile">
-Generating markdown content...
-[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
-  Finished generating 278 topics
-  Copying content to output folder...
-  Finished copying 322 files
-    Last step completed in 00:00:03.9962
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 4 seconds
+  
+  280	Topics
+  
+  2,748	Local links
+  
+  955	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\HtmlHelp1\Documentation.chm, 369,445 bytes
+  
+  Compression decreased file by 2,070,428 bytes.
+  
+    Last step completed in 00:00:05.2542
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0700
+    Last step completed in 00:00:00.0624
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/27/2018 10:17:22 AM.  Total time: 00:00:12.9447
+Build completed successfully at 12/27/2018 10:21:24 AM.  Total time: 00:00:16.0639
 
 </buildStep>
 </shfbBuild>
