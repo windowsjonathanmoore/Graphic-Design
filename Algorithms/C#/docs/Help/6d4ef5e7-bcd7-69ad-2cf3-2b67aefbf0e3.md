@@ -1,7 +1,7 @@
 # SkipList.Count Property 
  
 
-\[Missing <summary> documentation for "P:LSCollections.SkipList.Count"\]
+Gets the number of elements contained in the SkipList.
 
 **Namespace:**&nbsp;<a href="74772e97-7817-3c3c-69d7-7adc29f9a1cd">LSCollections</a><br />**Assembly:**&nbsp;Algorithms (in Algorithms.dll) Version: 1.0.0.0 (1.0.0.0)
 

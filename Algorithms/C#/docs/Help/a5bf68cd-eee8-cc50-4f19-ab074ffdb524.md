@@ -1,7 +1,7 @@
 # LinkedList.remove Method 
  
 
-\[Missing <summary> documentation for "M:algorithms.LinkedList.remove(System.Object)"\]
+Remove the first occurrence of an item.
 
 **Namespace:**&nbsp;<a href="82f88b43-fdc9-bc99-9558-75fce96d448f">algorithms</a><br />**Assembly:**&nbsp;Algorithms (in Algorithms.dll) Version: 1.0.0.0 (1.0.0.0)
 
@@ -52,7 +52,7 @@ function remove(x);
 
 
 #### Parameters
-&nbsp;<dl><dt>x</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br />\[Missing <param name="x"/> documentation for "M:algorithms.LinkedList.remove(System.Object)"\]</dd></dl>
+&nbsp;<dl><dt>x</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br />the item to remove.</dd></dl>
 
 ## See Also
 

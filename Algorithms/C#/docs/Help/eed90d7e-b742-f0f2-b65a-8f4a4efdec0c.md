@@ -1,7 +1,7 @@
 # PairNode Class
  
 
-\[Missing <summary> documentation for "T:algorithms.PairNode"\]
+Public class for use with PairHeap. It is public only to allow references to be sent to decreaseKey. It has no public methods or members.
 
 
 ## Inheritance Hierarchy
@@ -66,4 +66,4 @@ Returns a string that represents the current object.
 
 
 #### Reference
-<a href="82f88b43-fdc9-bc99-9558-75fce96d448f">algorithms Namespace</a><br />
+<a href="82f88b43-fdc9-bc99-9558-75fce96d448f">algorithms Namespace</a><br /><a href="3d1ac483-a78f-3e02-02ce-20f94c17ccd5">algorithms.PairHeap</a><br />

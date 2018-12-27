@@ -1,0 +1,11 @@
+D:\AUG\Computer-Art\Algorithms\C#\tests\bin\Debug\AlgorithmsTests1.dll
+D:\AUG\Computer-Art\Algorithms\C#\tests\bin\Debug\AlgorithmsTests1.pdb
+D:\AUG\Computer-Art\Algorithms\C#\tests\bin\Debug\Algorithms.dll
+D:\AUG\Computer-Art\Algorithms\C#\tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\AUG\Computer-Art\Algorithms\C#\tests\bin\Debug\Algorithms.pdb
+D:\AUG\Computer-Art\Algorithms\C#\tests\bin\Debug\Algorithms.xml
+D:\AUG\Computer-Art\Algorithms\C#\tests\obj\Debug\AlgorithmsTests.csprojAssemblyReference.cache
+D:\AUG\Computer-Art\Algorithms\C#\tests\obj\Debug\AlgorithmsTests.csproj.CoreCompileInputs.cache
+D:\AUG\Computer-Art\Algorithms\C#\tests\obj\Debug\AlgorithmsTests.csproj.CopyComplete
+D:\AUG\Computer-Art\Algorithms\C#\tests\obj\Debug\AlgorithmsTests1.dll
+D:\AUG\Computer-Art\Algorithms\C#\tests\obj\Debug\AlgorithmsTests1.pdb

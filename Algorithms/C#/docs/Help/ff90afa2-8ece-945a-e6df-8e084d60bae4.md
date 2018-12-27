@@ -1,7 +1,7 @@
 # MyInteger.intValue Method 
  
 
-\[Missing <summary> documentation for "M:algorithms.MyInteger.intValue"\]
+Gets the stored int value.
 
 **Namespace:**&nbsp;<a href="82f88b43-fdc9-bc99-9558-75fce96d448f">algorithms</a><br />**Assembly:**&nbsp;Algorithms (in Algorithms.dll) Version: 1.0.0.0 (1.0.0.0)
 
@@ -44,7 +44,7 @@ function intValue();
 
 
 #### Return Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br />\[Missing <returns> documentation for "M:algorithms.MyInteger.intValue"\]
+Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br />the stored value.
 
 ## See Also
 

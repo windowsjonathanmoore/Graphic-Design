@@ -27,6 +27,7 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
+      <DocumentationSource sourceFile="..\src\bin\Debug\Algorithms.xml" />
       <DocumentationSource sourceFile="..\src\bin\Debug\Algorithms.dll" />
     </DocumentationSources>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="D:\AUG\Computer-Art\Algorithms\C#\docs\Documentation1.shfbproj" started="12/27/2018 10:01:38 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="D:\AUG\Computer-Art\Algorithms\C#\docs\Documentation1.shfbproj" started="12/27/2018 10:17:09 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -14,22 +14,25 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
+Source: D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.xml
 Source: D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.dll
     Found assembly &#39;D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.dll&#39;
-SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
+
+Copying XML comments files
+    D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.xml -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Algorithms.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/27/2018 10:01:39 AM.
+Build started 12/27/2018 10:17:11 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -46,12 +49,12 @@ GenerateRefInfo:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:00.8664
+    Last step completed in 00:00:01.1021
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 12/27/2018 10:01:40 AM.
+Build started 12/27/2018 10:17:11 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
@@ -68,11 +71,11 @@ TransformManifest:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:00.6094
+    Last step completed in 00:00:00.6450
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0160
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -87,28 +90,28 @@ Generating conceptual topic files
     D:\AUG\Computer-Art\Algorithms\C#\docs\Content\VersionHistory\VersionHistory.aml -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\ddueXml\c30893fe-4911-4c33-b5d5-99c604937a2d.xml
     Parsing topic file &#39;D:\AUG\Computer-Art\Algorithms\C#\docs\Content\VersionHistory\v1.0.0.0.aml&#39;
     D:\AUG\Computer-Art\Algorithms\C#\docs\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\ddueXml\517a7995-a0ed-46f6-9f54-e21fdaf44930.xml
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0220
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 D:\AUG\Computer-Art\Algorithms\C#\docs\icons\Help.png -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\icons\Help.png
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/27/2018 10:01:41 AM.
+Build started 12/27/2018 10:17:12 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -117,12 +120,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2652
+    Last step completed in 00:00:00.2760
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0332
+    Last step completed in 00:00:00.0340
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -130,12 +133,12 @@ D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 12/27/2018 10:01:41 AM.
+Build started 12/27/2018 10:17:12 AM.
 Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -144,275 +147,49 @@ BuildTopics:
   Loading configuration...
   Processing topics...
 BuildAssembler : warning : ShowMissingComponent: [N:algorithms] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.AATree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.AATree.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.find(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.find(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.find(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.findMax] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.findMax] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.printTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.remove(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AATree.remove(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.AvlTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.AvlTree.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.find(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.find(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.find(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.findMax] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.findMax] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.printTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.remove(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.AvlTree.remove(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.BinaryHeap] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.#ctor(System.Int32)] Missing &lt;param name=&quot;capacity&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.deleteMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.deleteMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.BinaryHeap.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.BinaryHeap.Full] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinaryHeap.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.BinarySearchTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.BinarySearchTree.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.find(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.find(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.find(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.findMax] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.findMax] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.printTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.remove(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinarySearchTree.remove(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.BinomialQueue] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.deleteMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.deleteMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.BinomialQueue.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.BinomialQueue.Full] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.merge(algorithms.BinomialQueue)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.BinomialQueue.merge(algorithms.BinomialQueue)] Missing &lt;param name=&quot;rhs&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.Comparable] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.Comparable.compareTo(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.Comparable.compareTo(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.Comparable.compareTo(algorithms.Comparable)] Missing &lt;param name=&quot;rhs&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.CursorList] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.CursorList.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.find(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.find(System.Object)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.find(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.findPrevious(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.findPrevious(System.Object)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.findPrevious(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.first] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.first] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.insert(System.Object,algorithms.CursorListItr)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.insert(System.Object,algorithms.CursorListItr)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.insert(System.Object,algorithms.CursorListItr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.printList(algorithms.CursorList)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.printList(algorithms.CursorList)] Missing &lt;param name=&quot;theList&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.remove(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.remove(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.zeroth] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorList.zeroth] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.CursorListItr] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorListItr.advance] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.CursorListItr.PastEnd] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorListItr.retrieve] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.CursorListItr.retrieve] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.DisjSetsFast] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.#ctor(System.Int32)] Missing &lt;param name=&quot;numElements&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.find(System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.find(System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.find(System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.union(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.union(System.Int32,System.Int32)] Missing &lt;param name=&quot;root1&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.DisjSetsFast.union(System.Int32,System.Int32)] Missing &lt;param name=&quot;root2&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.Hashable] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.Hashable.hash(System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.Hashable.hash(System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.Hashable.hash(System.Int32)] Missing &lt;param name=&quot;tableSize&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.LeftistHeap] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.deleteMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.deleteMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.LeftistHeap.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.LeftistHeap.Full] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.merge(algorithms.LeftistHeap)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LeftistHeap.merge(algorithms.LeftistHeap)] Missing &lt;param name=&quot;rhs&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.LinkedList] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.LinkedList.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.find(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.find(System.Object)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.find(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.findPrevious(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.findPrevious(System.Object)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.findPrevious(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.first] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.first] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.insert(System.Object,algorithms.LinkedListItr)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.insert(System.Object,algorithms.LinkedListItr)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.insert(System.Object,algorithms.LinkedListItr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.printList(algorithms.LinkedList)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.printList(algorithms.LinkedList)] Missing &lt;param name=&quot;theList&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.remove(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.remove(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.zeroth] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedList.zeroth] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.LinkedListItr] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedListItr.advance] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.LinkedListItr.PastEnd] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedListItr.retrieve] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.LinkedListItr.retrieve] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.MyInteger] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.#ctor(System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.compareTo(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.compareTo(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.compareTo(algorithms.Comparable)] Missing &lt;param name=&quot;rhs&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.Equals(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.Equals(System.Object)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.Equals(System.Object)] Missing &lt;param name=&quot;rhs&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:algorithms.MyInteger.compareTo(algorithms.Comparable)] Unknown reference link target &#39;!:ClassCastException&#39;. [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:algorithms.MyInteger.compareTo(algorithms.Comparable)] Invalid reference link target &#39;!:ClassCastException&#39;. [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:algorithms.MyInteger.Equals(System.Object)] Unknown reference link target &#39;!:ClassCastException&#39;. [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:algorithms.MyInteger.Equals(System.Object)] Invalid reference link target &#39;!:ClassCastException&#39;. [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.GetHashCode] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.GetHashCode] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.hash(System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.hash(System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.hash(System.Int32)] Missing &lt;param name=&quot;tableSize&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.intValue] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.intValue] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.ToString] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.MyInteger.ToString] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.Overflow] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.PairHeap] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.decreaseKey(algorithms.PairNode,algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.decreaseKey(algorithms.PairNode,algorithms.Comparable)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.decreaseKey(algorithms.PairNode,algorithms.Comparable)] Missing &lt;param name=&quot;newVal&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.deleteMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.deleteMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.PairHeap.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.insert(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.PairHeap.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.PairNode] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.QueueAr] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.#ctor(System.Int32)] Missing &lt;param name=&quot;capacity&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.dequeue] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.dequeue] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.QueueAr.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.enqueue(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.enqueue(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.QueueAr.Front] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.QueueAr.Full] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.QueueAr.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.SeparateChainingHashTable] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.#ctor(System.Int32)] Missing &lt;param name=&quot;size&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.find(algorithms.Hashable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.find(algorithms.Hashable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.find(algorithms.Hashable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.hash(System.String,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.hash(System.String,System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.hash(System.String,System.Int32)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.hash(System.String,System.Int32)] Missing &lt;param name=&quot;tableSize&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.insert(algorithms.Hashable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.insert(algorithms.Hashable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.remove(algorithms.Hashable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SeparateChainingHashTable.remove(algorithms.Hashable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.SplayTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.SplayTree.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.find(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.find(algorithms.Comparable)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.find(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.findMax] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.findMax] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.findMin] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.findMin] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.insert(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.insert(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.printTree] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.remove(algorithms.Comparable)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.SplayTree.remove(algorithms.Comparable)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.StackAr] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.#ctor(System.Int32)] Missing &lt;param name=&quot;capacity&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.StackAr.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.StackAr.Full] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.pop] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.push(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.push(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.top] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.top] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.topAndPop] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackAr.topAndPop] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.StackLi] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.StackLi.Empty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:algorithms.StackLi.Full] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.Main(System.String[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.makeEmpty] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.pop] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.push(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.push(System.Object)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.top] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.top] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.topAndPop] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:algorithms.StackLi.topAndPop] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:algorithms.Underflow] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:Algorithms] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Algorithms.BubbleSort] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Algorithms.BubbleSort.bubble_sort_generic``1(``0[])] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
@@ -424,81 +201,20 @@ BuildAssembler : warning : ShowMissingComponent: [M:Algorithms.GCD.gcd(System.In
 BuildAssembler : warning : ShowMissingComponent: [M:Algorithms.GCD.gcd(System.Int32,System.Int32)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Algorithms.GCD.gcd(System.Int32,System.Int32)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:BoyerMoore] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:BoyerMoore.BoyerMoore] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.#ctor(System.String)] Missing &lt;param name=&quot;pattern&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String,System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String,System.Int32)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String,System.Int32)] Missing &lt;param name=&quot;startingIndex&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String,System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String,System.Int32)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BCLMatch(System.String,System.Int32)] Missing &lt;param name=&quot;startingIndex&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String,System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String,System.Int32)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String,System.Int32)] Missing &lt;param name=&quot;startingIndex&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String,System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String,System.Int32)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String,System.Int32)] Missing &lt;param name=&quot;startingIndex&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String,System.Int32)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String,System.Int32)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String,System.Int32)] Missing &lt;param name=&quot;startingIndex&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:LSCollections] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:LSCollections.SkipList] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.#ctor(System.Collections.IComparer)] Missing &lt;param name=&quot;comparer&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Add(System.Object,System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Add(System.Object,System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Add(System.Object,System.Object)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Clear] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Contains(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Contains(System.Object)] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Contains(System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.CopyTo(System.Array,System.Int32)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.CopyTo(System.Array,System.Int32)] Missing &lt;param name=&quot;array&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.CopyTo(System.Array,System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.Count] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Finalize] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.GetEnumerator] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.GetEnumerator] Missing &lt;returns&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.IsFixedSize] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.IsReadOnly] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.IsSynchronized] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.Item(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.Keys] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Remove(System.Object)] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LSCollections.SkipList.Remove(System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.SyncRoot] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:LSCollections.SkipList.Values] Missing &lt;summary&gt; documentation [D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj]
   Processed 278 topic(s)
-  344 warning(s)
+  57 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:05.3628
+    Last step completed in 00:00:05.4233
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -543,11 +259,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\static.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\media\xna.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; D:\AUG\Computer-Art\Algorithms\C#\docs\Help\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.2028
+    Last step completed in 00:00:00.2210
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
@@ -559,15 +275,15 @@ Generating markdown content...
   Finished generating 278 topics
   Copying content to output folder...
   Finished copying 322 files
-    Last step completed in 00:00:03.0256
+    Last step completed in 00:00:03.9962
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0780
+    Last step completed in 00:00:00.0700
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/27/2018 10:01:50 AM.  Total time: 00:00:11.6038
+Build completed successfully at 12/27/2018 10:17:22 AM.  Total time: 00:00:12.9447
 
 </buildStep>
 </shfbBuild>

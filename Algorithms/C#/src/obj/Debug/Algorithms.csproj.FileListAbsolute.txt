@@ -1,0 +1,7 @@
+D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.xml
+D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.dll
+D:\AUG\Computer-Art\Algorithms\C#\src\bin\Debug\Algorithms.pdb
+D:\AUG\Computer-Art\Algorithms\C#\src\obj\Debug\Algorithms.csprojAssemblyReference.cache
+D:\AUG\Computer-Art\Algorithms\C#\src\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+D:\AUG\Computer-Art\Algorithms\C#\src\obj\Debug\Algorithms.dll
+D:\AUG\Computer-Art\Algorithms\C#\src\obj\Debug\Algorithms.pdb

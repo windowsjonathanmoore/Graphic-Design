@@ -1,7 +1,7 @@
 # StackAr Class
  
 
-\[Missing <summary> documentation for "T:algorithms.StackAr"\]
+Array-based implementation of the stack.
 
 
 ## Inheritance Hierarchy
@@ -48,12 +48,14 @@ The StackAr type exposes the following members.
 
 ## Constructors
 &nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="66494a12-803b-c9be-ad79-2510b8a2d7a9">StackAr()</a></td><td>
-Initializes a new instance of the StackAr class</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="9bb91a88-6443-0b47-8acd-6efbc18f2e68">StackAr(Int32)</a></td><td>
-Initializes a new instance of the StackAr class</td></tr></table>&nbsp;
+Construct the stack.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="9bb91a88-6443-0b47-8acd-6efbc18f2e68">StackAr(Int32)</a></td><td>
+Construct the stack.</td></tr></table>&nbsp;
 <a href="#stackar-class">Back to Top</a>
 
 ## Properties
-&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="f6fe2f17-9f00-bd45-1904-88a87cd7bc09">Empty</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="b059fc5e-2fc2-31ee-0c6e-5ec5b3dcf419">Full</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="f6fe2f17-9f00-bd45-1904-88a87cd7bc09">Empty</a></td><td>
+Test if the stack is logically empty.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="b059fc5e-2fc2-31ee-0c6e-5ec5b3dcf419">Full</a></td><td>
+Test if the stack is logically full.</td></tr></table>&nbsp;
 <a href="#stackar-class">Back to Top</a>
 
 ## Methods
@@ -65,9 +67,14 @@ Allows an object to try to free resources and perform other cleanup operations b
 Serves as the default hash function.
  (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td>
 Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="bf436145-251c-c193-eb1a-69b6572f67ee">Main</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="f835e275-7a8c-fa39-c581-3b5fc78d811d">makeEmpty</a></td><td /></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td>
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="bf436145-251c-c193-eb1a-69b6572f67ee">Main</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="f835e275-7a8c-fa39-c581-3b5fc78d811d">makeEmpty</a></td><td>
+Make the stack logically empty.</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td>
 Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="f7ba2677-120b-7eeb-6bc3-a17686bac6a9">pop</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="3410d833-4bb3-216d-2010-0312ac8bdd2c">push</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="5f41ec84-9498-be84-8f5f-0957702744b3">top</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="5ced4ee4-bf60-af5e-28b3-ad90527b836f">topAndPop</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td>
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="f7ba2677-120b-7eeb-6bc3-a17686bac6a9">pop</a></td><td>
+Remove the most recently inserted item from the stack.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="3410d833-4bb3-216d-2010-0312ac8bdd2c">push</a></td><td>
+Insert a new item into the stack, if not already full.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="5f41ec84-9498-be84-8f5f-0957702744b3">top</a></td><td>
+Get the most recently inserted item in the stack. Does not alter the stack.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="5ced4ee4-bf60-af5e-28b3-ad90527b836f">topAndPop</a></td><td>
+Return and remove most recently inserted item from the stack.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td>
 Returns a string that represents the current object.
  (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr></table>&nbsp;
 <a href="#stackar-class">Back to Top</a>
