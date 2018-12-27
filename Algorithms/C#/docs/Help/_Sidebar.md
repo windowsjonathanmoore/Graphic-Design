@@ -1,6 +1,4 @@
-- [Welcome to the [TODO: Add project name]](343803b3-637e-406f-9030-1d0041e5aa17)
-- [Version History](c30893fe-4911-4c33-b5d5-99c604937a2d)
-  - [Version 1.0.0.0](517a7995-a0ed-46f6-9f54-e21fdaf44930)
+- [Welcome to the Fundamentals Algoritms Project](343803b3-637e-406f-9030-1d0041e5aa17)
 - [algorithms Namespace](82f88b43-fdc9-bc99-9558-75fce96d448f)
   - [AATree Class](d2b1ddce-1121-f4a3-2427-7103aa27229a)
     - [AATree Constructor](bd5b61b9-840b-c307-c0ae-37b4758f7964)
@@ -276,3 +274,5 @@
       - [SkipList.Finalize Method](1ff94e1a-d027-6651-652e-f427c8029e30)
       - [SkipList.GetEnumerator Method](6fc350a9-df79-97f8-11dd-03f914b764f7)
       - [SkipList.Remove Method](4154ec2d-5407-e1df-7a77-e8c53a54057d)
+- [Version History](c30893fe-4911-4c33-b5d5-99c604937a2d)
+  - [Version 1.0.0.0](517a7995-a0ed-46f6-9f54-e21fdaf44930)

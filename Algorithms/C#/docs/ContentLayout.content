@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="343803b3-637e-406f-9030-1d0041e5aa17" visible="True" isDefault="true" isSelected="true" title="Welcome to the [TODO: Add project name]">
+  <Topic id="343803b3-637e-406f-9030-1d0041e5aa17" visible="True" isDefault="true" isSelected="true" apiParentMode="InsertAfter" title="Welcome to the Fundamentals Algoritms Project">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
   </Topic>
-  <Topic id="c30893fe-4911-4c33-b5d5-99c604937a2d" visible="True" isExpanded="true" title="Version History">
+  <Topic id="c30893fe-4911-4c33-b5d5-99c604937a2d" visible="True" title="Version History">
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />
     </HelpKeywords>
