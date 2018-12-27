@@ -1,5 +1,5 @@
 using System;
-namespace algorithms
+namespace FundamentalAlgorithms
 {
 	
 	// Basic node stored in a linked list -- cursor version

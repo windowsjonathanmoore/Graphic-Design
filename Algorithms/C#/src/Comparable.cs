@@ -1,5 +1,5 @@
 using System;
-namespace algorithms
+namespace FundamentalAlgorithms
 {
 	
 	/// <summary> Protocol for Comparable objects.

@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using algorithms;
+using FundamentalAlgorithms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace algorithms.Tests
+namespace FundamentalAlgorithms.Tests
 {
     [TestClass()]
     public class AATreeTests

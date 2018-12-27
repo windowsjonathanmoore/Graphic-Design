@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BoyerMoore
+namespace FundamentalAlgorithms
 {
     /// <summary>
     /// Class that implements Boyer-Moore and related exact string-matching algorithms

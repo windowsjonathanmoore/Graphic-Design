@@ -1,5 +1,5 @@
 using System;
-namespace algorithms
+namespace FundamentalAlgorithms
 {
 	
 	/// <summary> Wrapper class for use with generic data structures.

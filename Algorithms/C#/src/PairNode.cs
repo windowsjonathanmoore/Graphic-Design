@@ -1,5 +1,5 @@
 using System;
-namespace algorithms
+namespace FundamentalAlgorithms
 {
 	
 	/// <summary> Public class for use with PairHeap. It is public

@@ -8,7 +8,7 @@ using System.Collections;
 using System.Resources;
 using System.Reflection;
 
-namespace LSCollections
+namespace FundamentalAlgorithms
 {
 	/// <summary>
     /// Represents a collection of key-and-value pairs.

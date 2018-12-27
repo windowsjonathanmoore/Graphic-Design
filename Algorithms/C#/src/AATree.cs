@@ -1,5 +1,5 @@
 using System;
-namespace algorithms
+namespace FundamentalAlgorithms
 {
 	
 	// AATree class

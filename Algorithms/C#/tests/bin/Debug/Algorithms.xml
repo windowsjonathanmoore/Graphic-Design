@@ -4,55 +4,55 @@
         <name>Algorithms</name>
     </assembly>
     <members>
-        <member name="T:algorithms.AATree">
+        <member name="T:FundamentalAlgorithms.AATree">
             <summary> Implements an AA-tree.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Mark Allen Weiss
             </author>
         </member>
-        <member name="P:algorithms.AATree.Empty">
+        <member name="P:FundamentalAlgorithms.AATree.Empty">
             <summary> Test if the tree is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.#ctor">
+        <member name="M:FundamentalAlgorithms.AATree.#ctor">
             <summary> Construct the tree.</summary>
         </member>
-        <member name="M:algorithms.AATree.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.AATree.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the tree. Does nothing if x is already present.</summary>
             <param name="x">the item to insert.
             </param>
         </member>
-        <member name="M:algorithms.AATree.remove(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.AATree.remove(FundamentalAlgorithms.Comparable)">
             <summary> Remove from the tree. Does nothing if x is not found.</summary>
             <param name="x">the item to remove.
             </param>
         </member>
-        <member name="M:algorithms.AATree.findMin">
+        <member name="M:FundamentalAlgorithms.AATree.findMin">
             <summary> Find the smallest item in the tree.</summary>
             <returns> the smallest item or null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.findMax">
+        <member name="M:FundamentalAlgorithms.AATree.findMax">
             <summary> Find the largest item in the tree.</summary>
             <returns> the largest item or null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.find(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.AATree.find(FundamentalAlgorithms.Comparable)">
             <summary> Find an item in the tree.</summary>
             <param name="x">the item to search for.
             </param>
             <returns> the matching item of null if not found.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.makeEmpty">
+        <member name="M:FundamentalAlgorithms.AATree.makeEmpty">
             <summary> Make the tree logically empty.</summary>
         </member>
-        <member name="M:algorithms.AATree.printTree">
+        <member name="M:FundamentalAlgorithms.AATree.printTree">
             <summary> Print the tree contents in sorted order.</summary>
         </member>
-        <member name="M:algorithms.AATree.insert(algorithms.Comparable,algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.insert(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.AANode)">
             <summary> Internal method to insert into a subtree.</summary>
             <param name="x">the item to insert.
             </param>
@@ -61,7 +61,7 @@
             <returns> the new root.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.remove(algorithms.Comparable,algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.remove(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.AANode)">
             <summary> Internal method to remove from a subtree.</summary>
             <param name="x">the item to remove.
             </param>
@@ -70,87 +70,87 @@
             <returns> the new root.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.printTree(algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.printTree(FundamentalAlgorithms.AANode)">
             <summary> Internal method to print a subtree in sorted order.</summary>
             <param name="t">the node that roots the tree.
             </param>
         </member>
-        <member name="M:algorithms.AATree.skew(algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.skew(FundamentalAlgorithms.AANode)">
             <summary> Skew primitive for AA-trees.</summary>
             <param name="t">the node that roots the tree.
             </param>
             <returns> the new root after the rotation.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.split(algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.split(FundamentalAlgorithms.AANode)">
             <summary> Split primitive for AA-trees.</summary>
             <param name="t">the node that roots the tree.
             </param>
             <returns> the new root after the rotation.
             </returns>
         </member>
-        <member name="M:algorithms.AATree.rotateWithLeftChild(algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.rotateWithLeftChild(FundamentalAlgorithms.AANode)">
             <summary> Rotate binary tree node with left child.</summary>
         </member>
-        <member name="M:algorithms.AATree.rotateWithRightChild(algorithms.AANode)">
+        <member name="M:FundamentalAlgorithms.AATree.rotateWithRightChild(FundamentalAlgorithms.AANode)">
             <summary> Rotate binary tree node with right child.</summary>
         </member>
-        <member name="T:algorithms.AvlTree">
+        <member name="T:FundamentalAlgorithms.AvlTree">
             <summary> Implements an AVL tree.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Mark Allen Weiss
             </author>
         </member>
-        <member name="P:algorithms.AvlTree.Empty">
+        <member name="P:FundamentalAlgorithms.AvlTree.Empty">
             <summary> Test if the tree is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.#ctor">
+        <member name="M:FundamentalAlgorithms.AvlTree.#ctor">
             <summary> Construct the tree.</summary>
         </member>
-        <member name="M:algorithms.AvlTree.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.AvlTree.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the tree; duplicates are ignored.</summary>
             <param name="x">the item to insert.
             </param>
         </member>
-        <member name="M:algorithms.AvlTree.remove(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.AvlTree.remove(FundamentalAlgorithms.Comparable)">
             <summary> Remove from the tree. Nothing is done if x is not found.</summary>
             <param name="x">the item to remove.
             </param>
         </member>
-        <member name="M:algorithms.AvlTree.findMin">
+        <member name="M:FundamentalAlgorithms.AvlTree.findMin">
             <summary> Find the smallest item in the tree.</summary>
             <returns> smallest item or null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.findMax">
+        <member name="M:FundamentalAlgorithms.AvlTree.findMax">
             <summary> Find the largest item in the tree.</summary>
             <returns> the largest item of null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.find(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.AvlTree.find(FundamentalAlgorithms.Comparable)">
             <summary> Find an item in the tree.</summary>
             <param name="x">the item to search for.
             </param>
             <returns> the matching item or null if not found.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.makeEmpty">
+        <member name="M:FundamentalAlgorithms.AvlTree.makeEmpty">
             <summary> Make the tree logically empty.</summary>
         </member>
-        <member name="M:algorithms.AvlTree.printTree">
+        <member name="M:FundamentalAlgorithms.AvlTree.printTree">
             <summary> Print the tree contents in sorted order.</summary>
         </member>
-        <member name="M:algorithms.AvlTree.elementAt(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.elementAt(FundamentalAlgorithms.AvlNode)">
             <summary> Internal method to get element field.</summary>
             <param name="t">the node.
             </param>
             <returns> the element field or null if t is null.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.insert(algorithms.Comparable,algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.insert(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.AvlNode)">
             <summary> Internal method to insert into a subtree.</summary>
             <param name="x">the item to insert.
             </param>
@@ -159,21 +159,21 @@
             <returns> the new root.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.findMin(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.findMin(FundamentalAlgorithms.AvlNode)">
             <summary> Internal method to find the smallest item in a subtree.</summary>
             <param name="t">the node that roots the tree.
             </param>
             <returns> node containing the smallest item.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.findMax(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.findMax(FundamentalAlgorithms.AvlNode)">
             <summary> Internal method to find the largest item in a subtree.</summary>
             <param name="t">the node that roots the tree.
             </param>
             <returns> node containing the largest item.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.find(algorithms.Comparable,algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.find(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.AvlNode)">
             <summary> Internal method to find an item in a subtree.</summary>
             <param name="x">is item to search for.
             </param>
@@ -182,159 +182,159 @@
             <returns> node containing the matched item.
             </returns>
         </member>
-        <member name="M:algorithms.AvlTree.printTree(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.printTree(FundamentalAlgorithms.AvlNode)">
             <summary> Internal method to print a subtree in sorted order.</summary>
             <param name="t">the node that roots the tree.
             </param>
         </member>
-        <member name="M:algorithms.AvlTree.height(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.height(FundamentalAlgorithms.AvlNode)">
             <summary> Return the height of node t, or -1, if null.</summary>
         </member>
-        <member name="M:algorithms.AvlTree.max(System.Int32,System.Int32)">
+        <member name="M:FundamentalAlgorithms.AvlTree.max(System.Int32,System.Int32)">
             <summary> Return maximum of lhs and rhs.</summary>
         </member>
-        <member name="M:algorithms.AvlTree.rotateWithLeftChild(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.rotateWithLeftChild(FundamentalAlgorithms.AvlNode)">
             <summary> Rotate binary tree node with left child.
             For AVL trees, this is a single rotation for case 1.
             Update heights, then return new root.
             </summary>
         </member>
-        <member name="M:algorithms.AvlTree.rotateWithRightChild(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.rotateWithRightChild(FundamentalAlgorithms.AvlNode)">
             <summary> Rotate binary tree node with right child.
             For AVL trees, this is a single rotation for case 4.
             Update heights, then return new root.
             </summary>
         </member>
-        <member name="M:algorithms.AvlTree.doubleWithLeftChild(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.doubleWithLeftChild(FundamentalAlgorithms.AvlNode)">
             <summary> Double rotate binary tree node: first left child
             with its right child; then node k3 with new left child.
             For AVL trees, this is a double rotation for case 2.
             Update heights, then return new root.
             </summary>
         </member>
-        <member name="M:algorithms.AvlTree.doubleWithRightChild(algorithms.AvlNode)">
+        <member name="M:FundamentalAlgorithms.AvlTree.doubleWithRightChild(FundamentalAlgorithms.AvlNode)">
             <summary> Double rotate binary tree node: first right child
             with its left child; then node k1 with new right child.
             For AVL trees, this is a double rotation for case 3.
             Update heights, then return new root.
             </summary>
         </member>
-        <member name="F:algorithms.AvlTree.root">
+        <member name="F:FundamentalAlgorithms.AvlTree.root">
             <summary>The tree root. </summary>
         </member>
-        <member name="T:algorithms.BinaryHeap">
+        <member name="T:FundamentalAlgorithms.BinaryHeap">
             <summary> Implements a binary heap.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Mark Allen Weiss
             </author>
         </member>
-        <member name="P:algorithms.BinaryHeap.Empty">
+        <member name="P:FundamentalAlgorithms.BinaryHeap.Empty">
             <summary> Test if the priority queue is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="P:algorithms.BinaryHeap.Full">
+        <member name="P:FundamentalAlgorithms.BinaryHeap.Full">
             <summary> Test if the priority queue is logically full.</summary>
             <returns> true if full, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.BinaryHeap.#ctor">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.#ctor">
             <summary> Construct the binary heap.</summary>
         </member>
-        <member name="M:algorithms.BinaryHeap.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.#ctor(System.Int32)">
             <summary> Construct the binary heap.</summary>
             <param name="capacity">the capacity of the binary heap.
             </param>
         </member>
-        <member name="M:algorithms.BinaryHeap.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the priority queue, maintaining heap order.
             Duplicates are allowed.
             </summary>
             <param name="x">the item to insert.
             </param>
-            <exception cref="T:algorithms.Overflow">if container is full.
+            <exception cref="T:FundamentalAlgorithms.Overflow">if container is full.
             </exception>
         </member>
-        <member name="M:algorithms.BinaryHeap.findMin">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.findMin">
             <summary> Find the smallest item in the priority queue.</summary>
             <returns> the smallest item, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.BinaryHeap.deleteMin">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.deleteMin">
             <summary> Remove the smallest item from the priority queue.</summary>
             <returns> the smallest item, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.BinaryHeap.buildHeap">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.buildHeap">
             <summary> Establish heap order property from an arbitrary
             arrangement of items. Runs in linear time.
             </summary>
         </member>
-        <member name="M:algorithms.BinaryHeap.makeEmpty">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.makeEmpty">
             <summary> Make the priority queue logically empty.</summary>
         </member>
-        <member name="M:algorithms.BinaryHeap.percolateDown(System.Int32)">
+        <member name="M:FundamentalAlgorithms.BinaryHeap.percolateDown(System.Int32)">
             <summary> Internal method to percolate down in the heap.</summary>
             <param name="hole">the index at which the percolate begins.
             </param>
         </member>
-        <member name="T:algorithms.BinarySearchTree">
+        <member name="T:FundamentalAlgorithms.BinarySearchTree">
             <summary> Implements an unbalanced binary search tree.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Jonathan Moore
             </author>
         </member>
-        <member name="P:algorithms.BinarySearchTree.Empty">
+        <member name="P:FundamentalAlgorithms.BinarySearchTree.Empty">
             <summary> Test if the tree is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.#ctor">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.#ctor">
             <summary> Construct the tree.</summary>
         </member>
-        <member name="M:algorithms.BinarySearchTree.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the tree; duplicates are ignored.</summary>
             <param name="x">the item to insert.
             </param>
         </member>
-        <member name="M:algorithms.BinarySearchTree.remove(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.remove(FundamentalAlgorithms.Comparable)">
             <summary> Remove from the tree. Nothing is done if x is not found.</summary>
             <param name="x">the item to remove.
             </param>
         </member>
-        <member name="M:algorithms.BinarySearchTree.findMin">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.findMin">
             <summary> Find the smallest item in the tree.</summary>
             <returns> smallest item or null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.findMax">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.findMax">
             <summary> Find the largest item in the tree.</summary>
             <returns> the largest item of null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.find(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.find(FundamentalAlgorithms.Comparable)">
             <summary> Find an item in the tree.</summary>
             <param name="x">the item to search for.
             </param>
             <returns> the matching item or null if not found.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.makeEmpty">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.makeEmpty">
             <summary> Make the tree logically empty.</summary>
         </member>
-        <member name="M:algorithms.BinarySearchTree.printTree">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.printTree">
             <summary> Print the tree contents in sorted order.</summary>
         </member>
-        <member name="M:algorithms.BinarySearchTree.elementAt(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.elementAt(FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to get element field.</summary>
             <param name="t">the node.
             </param>
             <returns> the element field or null if t is null.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.insert(algorithms.Comparable,algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.insert(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to insert into a subtree.</summary>
             <param name="x">the item to insert.
             </param>
@@ -343,7 +343,7 @@
             <returns> the new root.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.remove(algorithms.Comparable,algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.remove(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to remove from a subtree.</summary>
             <param name="x">the item to remove.
             </param>
@@ -352,21 +352,21 @@
             <returns> the new root.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.findMin(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.findMin(FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to find the smallest item in a subtree.</summary>
             <param name="t">the node that roots the tree.
             </param>
             <returns> node containing the smallest item.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.findMax(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.findMax(FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to find the largest item in a subtree.</summary>
             <param name="t">the node that roots the tree.
             </param>
             <returns> node containing the largest item.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.find(algorithms.Comparable,algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.find(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to find an item in a subtree.</summary>
             <param name="x">is item to search for.
             </param>
@@ -375,86 +375,86 @@
             <returns> node containing the matched item.
             </returns>
         </member>
-        <member name="M:algorithms.BinarySearchTree.printTree(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.BinarySearchTree.printTree(FundamentalAlgorithms.BinaryNode)">
             <summary> Internal method to print a subtree in sorted order.</summary>
             <param name="t">the node that roots the tree.
             </param>
         </member>
-        <member name="F:algorithms.BinarySearchTree.root">
+        <member name="F:FundamentalAlgorithms.BinarySearchTree.root">
             <summary>The tree root. </summary>
         </member>
-        <member name="T:algorithms.BinomialQueue">
+        <member name="T:FundamentalAlgorithms.BinomialQueue">
             <summary> Implements a binomial queue.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
         </member>
-        <member name="P:algorithms.BinomialQueue.Empty">
+        <member name="P:FundamentalAlgorithms.BinomialQueue.Empty">
             <summary> Test if the priority queue is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="P:algorithms.BinomialQueue.Full">
+        <member name="P:FundamentalAlgorithms.BinomialQueue.Full">
             <summary> Test if the priority queue is logically full.</summary>
             <returns> true if full, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.BinomialQueue.#ctor">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.#ctor">
             <summary> Construct the binomial queue.</summary>
         </member>
-        <member name="M:algorithms.BinomialQueue.merge(algorithms.BinomialQueue)">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.merge(FundamentalAlgorithms.BinomialQueue)">
             <summary> Merge rhs into the priority queue.
             rhs becomes empty. rhs must be different from this.
             </summary>
             <param name="rhs">the other binomial queue.
             </param>
-            <exception cref="T:algorithms.Overflow">if result exceeds capacity.
+            <exception cref="T:FundamentalAlgorithms.Overflow">if result exceeds capacity.
             </exception>
         </member>
-        <member name="M:algorithms.BinomialQueue.combineTrees(algorithms.BinomialNode,algorithms.BinomialNode)">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.combineTrees(FundamentalAlgorithms.BinomialNode,FundamentalAlgorithms.BinomialNode)">
             <summary> Return the result of merging equal-sized t1 and t2.</summary>
         </member>
-        <member name="M:algorithms.BinomialQueue.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the priority queue, maintaining heap order.
             This implementation is not optimized for O(1) performance.
             </summary>
             <param name="x">the item to insert.
             </param>
-            <exception cref="T:algorithms.Overflow">if capacity exceeded.
+            <exception cref="T:FundamentalAlgorithms.Overflow">if capacity exceeded.
             </exception>
         </member>
-        <member name="M:algorithms.BinomialQueue.findMin">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.findMin">
             <summary> Find the smallest item in the priority queue.</summary>
             <returns> the smallest item, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.BinomialQueue.findMinIndex">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.findMinIndex">
             <summary> Find index of tree containing the smallest item in the priority queue.
             The priority queue must not be empty.
             </summary>
             <returns> the index of tree containing the smallest item.
             </returns>
         </member>
-        <member name="M:algorithms.BinomialQueue.deleteMin">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.deleteMin">
             <summary> Remove the smallest item from the priority queue.</summary>
             <returns> the smallest item, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.BinomialQueue.makeEmpty">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.makeEmpty">
             <summary> Make the priority queue logically empty.</summary>
         </member>
-        <member name="M:algorithms.BinomialQueue.capacity">
+        <member name="M:FundamentalAlgorithms.BinomialQueue.capacity">
             <summary> Return the capacity.</summary>
         </member>
-        <member name="T:algorithms.Comparable">
+        <member name="T:FundamentalAlgorithms.Comparable">
             <summary> Protocol for Comparable objects.
             In Java 1.2, you can remove this file.
             </summary>
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
         </member>
-        <member name="M:algorithms.Comparable.compareTo(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.Comparable.compareTo(FundamentalAlgorithms.Comparable)">
             <summary> Compare this object with rhs.</summary>
             <param name="rhs">the second Comparable.
             </param>
@@ -463,50 +463,50 @@
             greater than zero if this object is larger.
             </returns>
         </member>
-        <member name="T:algorithms.CursorList">
+        <member name="T:FundamentalAlgorithms.CursorList">
             <summary> Linked list implementation of the list
             using a header node; cursor version.
             Access to the list is via CursorListItr.
             </summary>
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
-            <seealso cref="T:algorithms.CursorListItr">
+            <seealso cref="T:FundamentalAlgorithms.CursorListItr">
             </seealso>
         </member>
-        <member name="P:algorithms.CursorList.Empty">
+        <member name="P:FundamentalAlgorithms.CursorList.Empty">
             <summary> Test if the list is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.CursorList.#ctor">
+        <member name="M:FundamentalAlgorithms.CursorList.#ctor">
             <summary> Construct the list.</summary>
         </member>
-        <member name="M:algorithms.CursorList.makeEmpty">
+        <member name="M:FundamentalAlgorithms.CursorList.makeEmpty">
             <summary> Make the list logically empty.</summary>
         </member>
-        <member name="M:algorithms.CursorList.zeroth">
+        <member name="M:FundamentalAlgorithms.CursorList.zeroth">
             <summary> Return an iterator representing the header node.</summary>
         </member>
-        <member name="M:algorithms.CursorList.first">
+        <member name="M:FundamentalAlgorithms.CursorList.first">
             <summary> Return an iterator representing the first node in the list.
             This operation is valid for empty lists.
             </summary>
         </member>
-        <member name="M:algorithms.CursorList.insert(System.Object,algorithms.CursorListItr)">
+        <member name="M:FundamentalAlgorithms.CursorList.insert(System.Object,FundamentalAlgorithms.CursorListItr)">
             <summary> Insert after p.</summary>
             <param name="x">the item to insert.
             </param>
             <param name="p">the position prior to the newly inserted item.
             </param>
         </member>
-        <member name="M:algorithms.CursorList.find(System.Object)">
+        <member name="M:FundamentalAlgorithms.CursorList.find(System.Object)">
             <summary> Return iterator corresponding to the first node containing an item.</summary>
             <param name="x">the item to search for.
             </param>
             <returns> an iterator; iterator isPastEnd if item is not found.
             </returns>
         </member>
-        <member name="M:algorithms.CursorList.findPrevious(System.Object)">
+        <member name="M:FundamentalAlgorithms.CursorList.findPrevious(System.Object)">
             <summary> Return iterator prior to the first node containing an item.</summary>
             <param name="x">the item to search for.
             </param>
@@ -514,57 +514,57 @@
             iterator corresponding to the last element in the list is returned.
             </returns>
         </member>
-        <member name="M:algorithms.CursorList.remove(System.Object)">
+        <member name="M:FundamentalAlgorithms.CursorList.remove(System.Object)">
             <summary> Remove the first occurrence of an item.</summary>
             <param name="x">the item to remove.
             </param>
         </member>
-        <member name="T:algorithms.CursorListItr">
+        <member name="T:FundamentalAlgorithms.CursorListItr">
             <summary> Linked list implementation of the list iterator
             using a header node; cursor version.
             </summary>
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
-            <seealso cref="T:algorithms.CursorList">
+            <seealso cref="T:FundamentalAlgorithms.CursorList">
             </seealso>
         </member>
-        <member name="P:algorithms.CursorListItr.PastEnd">
+        <member name="P:FundamentalAlgorithms.CursorListItr.PastEnd">
             <summary> Test if the current position is past the end of the list.</summary>
             <returns> true if the current position is null-equivalent.
             </returns>
         </member>
-        <member name="M:algorithms.CursorListItr.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.CursorListItr.#ctor(System.Int32)">
             <summary> Construct the list iterator</summary>
             <param name="theNode">any node in the linked list.
             </param>
         </member>
-        <member name="M:algorithms.CursorListItr.retrieve">
+        <member name="M:FundamentalAlgorithms.CursorListItr.retrieve">
             <summary> Return the item stored in the current position.</summary>
             <returns> the stored item or null if the current position
             is not in the list.
             </returns>
         </member>
-        <member name="M:algorithms.CursorListItr.advance">
+        <member name="M:FundamentalAlgorithms.CursorListItr.advance">
             <summary> Advance the current position to the next node in the list.
             If the current position is null, then do nothing.
             </summary>
         </member>
-        <member name="T:algorithms.DisjSets">
+        <member name="T:FundamentalAlgorithms.DisjSets">
             <summary> Disjoint set class. (Package friendly so not used accidentally)
             Does not use union heuristics or path compression.
             Elements in the set are numbered starting at 0.
             </summary>
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
-            <seealso cref="T:algorithms.DisjSetsFast">
+            <seealso cref="T:FundamentalAlgorithms.DisjSetsFast">
             </seealso>
         </member>
-        <member name="M:algorithms.DisjSets.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.DisjSets.#ctor(System.Int32)">
             <summary> Construct the disjoint sets object.</summary>
             <param name="numElements">the initial number of disjoint sets.
             </param>
         </member>
-        <member name="M:algorithms.DisjSets.union(System.Int32,System.Int32)">
+        <member name="M:FundamentalAlgorithms.DisjSets.union(System.Int32,System.Int32)">
             <summary> Union two disjoint sets.
             For simplicity, we assume root1 and root2 are distinct
             and represent set names.
@@ -574,7 +574,7 @@
             <param name="root2">the root of set 2.
             </param>
         </member>
-        <member name="M:algorithms.DisjSets.find(System.Int32)">
+        <member name="M:FundamentalAlgorithms.DisjSets.find(System.Int32)">
             <summary> Perform a find.
             Error checks omitted again for simplicity.
             </summary>
@@ -583,7 +583,7 @@
             <returns> the set containing x.
             </returns>
         </member>
-        <member name="T:algorithms.DisjSetsFast">
+        <member name="T:FundamentalAlgorithms.DisjSetsFast">
             <summary> Disjoint set class, using union by rank
             and path compression.
             Elements in the set are numbered starting at 0.
@@ -591,12 +591,12 @@
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
         </member>
-        <member name="M:algorithms.DisjSetsFast.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.DisjSetsFast.#ctor(System.Int32)">
             <summary> Construct the disjoint sets object.</summary>
             <param name="numElements">the initial number of disjoint sets.
             </param>
         </member>
-        <member name="M:algorithms.DisjSetsFast.union(System.Int32,System.Int32)">
+        <member name="M:FundamentalAlgorithms.DisjSetsFast.union(System.Int32,System.Int32)">
             <summary> Union two disjoint sets using the height heuristic.
             For simplicity, we assume root1 and root2 are distinct
             and represent set names.
@@ -606,7 +606,7 @@
             <param name="root2">the root of set 2.
             </param>
         </member>
-        <member name="M:algorithms.DisjSetsFast.find(System.Int32)">
+        <member name="M:FundamentalAlgorithms.DisjSetsFast.find(System.Int32)">
             <summary> Perform a find with path compression.
             Error checks omitted again for simplicity.
             </summary>
@@ -615,12 +615,24 @@
             <returns> the set containing x.
             </returns>
         </member>
-        <member name="T:algorithms.Hashable">
+        <member name="F:FundamentalAlgorithms.Program._random">
+            <summary>
+            Used in Shuffle(T).
+            </summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.Program.Shuffle``1(``0[])">
+            <summary>
+            Shuffle the array.
+            </summary>
+            <typeparam name="T">Array element type.</typeparam>
+            <param name="array">Array to shuffle.</param>
+        </member>
+        <member name="T:FundamentalAlgorithms.Hashable">
             <summary> Protocol for Hashable objects.</summary>
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
         </member>
-        <member name="M:algorithms.Hashable.hash(System.Int32)">
+        <member name="M:FundamentalAlgorithms.Hashable.hash(System.Int32)">
             <summary> Compute a hash function for this object.</summary>
             <param name="tableSize">the hash table size.
             </param>
@@ -628,108 +640,108 @@
             0 and tableSize-1, distributed equitably.
             </returns>
         </member>
-        <member name="T:algorithms.LeftistHeap">
+        <member name="T:FundamentalAlgorithms.LeftistHeap">
             <summary> Implements a leftist heap.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
         </member>
-        <member name="P:algorithms.LeftistHeap.Empty">
+        <member name="P:FundamentalAlgorithms.LeftistHeap.Empty">
             <summary> Test if the priority queue is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="P:algorithms.LeftistHeap.Full">
+        <member name="P:FundamentalAlgorithms.LeftistHeap.Full">
             <summary> Test if the priority queue is logically full.</summary>
             <returns> false in this implementation.
             </returns>
         </member>
-        <member name="M:algorithms.LeftistHeap.#ctor">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.#ctor">
             <summary> Construct the leftist heap.</summary>
         </member>
-        <member name="M:algorithms.LeftistHeap.merge(algorithms.LeftistHeap)">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.merge(FundamentalAlgorithms.LeftistHeap)">
             <summary> Merge rhs into the priority queue.
             rhs becomes empty. rhs must be different from this.
             </summary>
             <param name="rhs">the other leftist heap.
             </param>
         </member>
-        <member name="M:algorithms.LeftistHeap.merge(algorithms.LeftHeapNode,algorithms.LeftHeapNode)">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.merge(FundamentalAlgorithms.LeftHeapNode,FundamentalAlgorithms.LeftHeapNode)">
             <summary> Internal static method to merge two roots.
             Deals with deviant cases and calls recursive merge1.
             </summary>
         </member>
-        <member name="M:algorithms.LeftistHeap.merge1(algorithms.LeftHeapNode,algorithms.LeftHeapNode)">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.merge1(FundamentalAlgorithms.LeftHeapNode,FundamentalAlgorithms.LeftHeapNode)">
             <summary> Internal static method to merge two roots.
             Assumes trees are not empty, and h1's root contains smallest item.
             </summary>
         </member>
-        <member name="M:algorithms.LeftistHeap.swapChildren(algorithms.LeftHeapNode)">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.swapChildren(FundamentalAlgorithms.LeftHeapNode)">
             <summary> Swaps t's two children.</summary>
         </member>
-        <member name="M:algorithms.LeftistHeap.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the priority queue, maintaining heap order.</summary>
             <param name="x">the item to insert.
             </param>
         </member>
-        <member name="M:algorithms.LeftistHeap.findMin">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.findMin">
             <summary> Find the smallest item in the priority queue.</summary>
             <returns> the smallest item, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.LeftistHeap.deleteMin">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.deleteMin">
             <summary> Remove the smallest item from the priority queue.</summary>
             <returns> the smallest item, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.LeftistHeap.makeEmpty">
+        <member name="M:FundamentalAlgorithms.LeftistHeap.makeEmpty">
             <summary> Make the priority queue logically empty.</summary>
         </member>
-        <member name="T:algorithms.LinkedList">
+        <member name="T:FundamentalAlgorithms.LinkedList">
             <summary> Linked list implementation of the list
             using a header node.
             Access to the list is via LinkedListItr.
             </summary>
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
-            <seealso cref="T:algorithms.LinkedListItr">
+            <seealso cref="T:FundamentalAlgorithms.LinkedListItr">
             </seealso>
         </member>
-        <member name="P:algorithms.LinkedList.Empty">
+        <member name="P:FundamentalAlgorithms.LinkedList.Empty">
             <summary> Test if the list is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.LinkedList.#ctor">
+        <member name="M:FundamentalAlgorithms.LinkedList.#ctor">
             <summary> Construct the list</summary>
         </member>
-        <member name="M:algorithms.LinkedList.makeEmpty">
+        <member name="M:FundamentalAlgorithms.LinkedList.makeEmpty">
             <summary> Make the list logically empty.</summary>
         </member>
-        <member name="M:algorithms.LinkedList.zeroth">
+        <member name="M:FundamentalAlgorithms.LinkedList.zeroth">
             <summary> Return an iterator representing the header node.</summary>
         </member>
-        <member name="M:algorithms.LinkedList.first">
+        <member name="M:FundamentalAlgorithms.LinkedList.first">
             <summary> Return an iterator representing the first node in the list.
             This operation is valid for empty lists.
             </summary>
         </member>
-        <member name="M:algorithms.LinkedList.insert(System.Object,algorithms.LinkedListItr)">
+        <member name="M:FundamentalAlgorithms.LinkedList.insert(System.Object,FundamentalAlgorithms.LinkedListItr)">
             <summary> Insert after p.</summary>
             <param name="x">the item to insert.
             </param>
             <param name="p">the position prior to the newly inserted item.
             </param>
         </member>
-        <member name="M:algorithms.LinkedList.find(System.Object)">
+        <member name="M:FundamentalAlgorithms.LinkedList.find(System.Object)">
             <summary> Return iterator corresponding to the first node containing an item.</summary>
             <param name="x">the item to search for.
             </param>
             <returns> an iterator; iterator isPastEnd if item is not found.
             </returns>
         </member>
-        <member name="M:algorithms.LinkedList.findPrevious(System.Object)">
+        <member name="M:FundamentalAlgorithms.LinkedList.findPrevious(System.Object)">
             <summary> Return iterator prior to the first node containing an item.</summary>
             <param name="x">the item to search for.
             </param>
@@ -737,42 +749,155 @@
             iterator corresponding to the last element in the list is returned.
             </returns>
         </member>
-        <member name="M:algorithms.LinkedList.remove(System.Object)">
+        <member name="M:FundamentalAlgorithms.LinkedList.remove(System.Object)">
             <summary> Remove the first occurrence of an item.</summary>
             <param name="x">the item to remove.
             </param>
         </member>
-        <member name="T:algorithms.LinkedListItr">
+        <member name="T:FundamentalAlgorithms.LinkedListItr">
             <summary> Linked list implementation of the list iterator
             using a header node.
             </summary>
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
-            <seealso cref="T:algorithms.LinkedList">
+            <seealso cref="T:FundamentalAlgorithms.LinkedList">
             </seealso>
         </member>
-        <member name="P:algorithms.LinkedListItr.PastEnd">
+        <member name="P:FundamentalAlgorithms.LinkedListItr.PastEnd">
             <summary> Test if the current position is past the end of the list.</summary>
             <returns> true if the current position is null.
             </returns>
         </member>
-        <member name="M:algorithms.LinkedListItr.#ctor(algorithms.ListNode)">
+        <member name="M:FundamentalAlgorithms.LinkedListItr.#ctor(FundamentalAlgorithms.ListNode)">
             <summary> Construct the list iterator</summary>
             <param name="theNode">any node in the linked list.
             </param>
         </member>
-        <member name="M:algorithms.LinkedListItr.retrieve">
+        <member name="M:FundamentalAlgorithms.LinkedListItr.retrieve">
             <summary> Return the item stored in the current position.</summary>
             <returns> the stored item or null if the current position
             is not in the list.
             </returns>
         </member>
-        <member name="M:algorithms.LinkedListItr.advance">
+        <member name="M:FundamentalAlgorithms.LinkedListItr.advance">
             <summary> Advance the current position to the next node in the list.
             If the current position is null, then do nothing.
             </summary>
         </member>
-        <member name="T:algorithms.MyInteger">
+        <member name="T:FundamentalAlgorithms.BoyerMoore">
+            <summary>
+            Class that implements Boyer-Moore and related exact string-matching algorithms
+            </summary>
+            <remarks>
+            From "Handbook of exact string-matching algorithms"
+              by Christian Charras and Thierry Lecroq
+              chapter 15
+            http://www-igm.univ-mlv.fr/~lecroq/string/node15.html#SECTION00150
+            </remarks>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="pattern">Pattern for search</param>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.BuildBadCharacterShift(System.String)">
+            <summary>
+            Build the bad character shift array.
+            </summary>
+            <param name="pattern">Pattern for search</param>
+            <returns>bad character shift array</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.FindSuffixes(System.String)">
+            <summary>
+            Find suffixes in the pattern
+            </summary>
+            <param name="pattern">Pattern for search</param>
+            <returns>Suffix array</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.BuildGoodSuffixShift(System.String,System.Int32[])">
+            <summary>
+            Build the good suffix array.
+            </summary>
+            <param name="pattern">Pattern for search</param>
+            <returns>Good suffix shift array</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.BCLMatch(System.String,System.Int32)">
+            <summary>
+            Return all matched of the pattern in the specified text using the .NET String.indexOf API
+            </summary>
+            <param name="text">text to be searched</param>
+            <param name="startingIndex">Index at which search begins</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.BCLMatch(System.String)">
+            <summary>
+            Return all matched of the pattern in the specified text using the .NET String.indexOf API
+            </summary>
+            <param name="text">text to be searched</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.HorspoolMatch(System.String,System.Int32)">
+            <summary>
+            Return all matches of the pattern in specified text using the Horspool algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <param name="startingIndex">Index at which search begins</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.HorspoolMatch(System.String)">
+            <summary>
+            Return all matches of the pattern in specified text using the Horspool algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.BoyerMooreMatch(System.String,System.Int32)">
+            <summary>
+            Return all matches of the pattern in specified text using the Boyer-Moore algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <param name="startingIndex">Index at which search begins</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.BoyerMooreMatch(System.String)">
+            <summary>
+            Return all matches of the pattern in specified text using the Boyer-Moore algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.TurboBoyerMooreMatch(System.String,System.Int32)">
+            <summary>
+            Return all matches of the pattern in specified text using the Turbo Boyer-Moore algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <param name="startingIndex">Index at which search begins</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.TurboBoyerMooreMatch(System.String)">
+            <summary>
+            Return all matches of the pattern in specified text using the Turbo Boyer-Moore algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.ApostolicoGiancarloMatch(System.String,System.Int32)">
+            <summary>
+            Return all matches of the pattern in specified text using the Apostolico-GiancarloMatch algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <param name="startingIndex">Index at which search begins</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.BoyerMoore.ApostolicoGiancarloMatch(System.String)">
+            <summary>
+            Return all matches of the pattern in specified text using the Apostolico-GiancarloMatch algorithm
+            </summary>
+            <param name="text">text to be searched</param>
+            <returns>IEnumerable which returns the indexes of pattern matches</returns>
+        </member>
+        <member name="T:FundamentalAlgorithms.MyInteger">
             <summary> Wrapper class for use with generic data structures.
             Mimics Integer.
             In Java 1.2, you can use Integer if Comparable is needed.
@@ -780,25 +905,25 @@
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
         </member>
-        <member name="M:algorithms.MyInteger.#ctor">
+        <member name="M:FundamentalAlgorithms.MyInteger.#ctor">
             <summary> Construct the MyInteger object with initial value 0.</summary>
         </member>
-        <member name="M:algorithms.MyInteger.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.MyInteger.#ctor(System.Int32)">
             <summary> Construct the MyInteger object.</summary>
             <param name="x">the initial value.
             </param>
         </member>
-        <member name="M:algorithms.MyInteger.intValue">
+        <member name="M:FundamentalAlgorithms.MyInteger.intValue">
             <summary> Gets the stored int value.</summary>
             <returns> the stored value.
             </returns>
         </member>
-        <member name="M:algorithms.MyInteger.ToString">
+        <member name="M:FundamentalAlgorithms.MyInteger.ToString">
             <summary> Implements the toString method.</summary>
             <returns> the String representation.
             </returns>
         </member>
-        <member name="M:algorithms.MyInteger.compareTo(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.MyInteger.compareTo(FundamentalAlgorithms.Comparable)">
             <summary> Implements the compareTo method.</summary>
             <param name="rhs">the other MyInteger object.
             </param>
@@ -810,7 +935,7 @@
             a MyInteger.
             </exception>
         </member>
-        <member name="M:algorithms.MyInteger.Equals(System.Object)">
+        <member name="M:FundamentalAlgorithms.MyInteger.Equals(System.Object)">
             <summary> Implements the equals method.</summary>
             <param name="rhs">the second MyInteger.
             </param>
@@ -820,39 +945,39 @@
             a MyInteger.
             </exception>
         </member>
-        <member name="M:algorithms.MyInteger.hash(System.Int32)">
+        <member name="M:FundamentalAlgorithms.MyInteger.hash(System.Int32)">
             <summary> Implements the hash method.</summary>
             <param name="tableSize">the hash table size.
             </param>
             <returns> a number between 0 and tableSize-1.
             </returns>
         </member>
-        <member name="T:algorithms.Overflow">
+        <member name="T:FundamentalAlgorithms.Overflow">
             <summary> Exception class for access in full containers
             such as stacks, queues, and priority queues.
             </summary>
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
         </member>
-        <member name="T:algorithms.PairHeap">
+        <member name="T:FundamentalAlgorithms.PairHeap">
             <summary> Implements a pairing heap.
             Supports a decreaseKey operation.
             Note that all "matching" is based on the compareTo method.
             </summary>
             <author>  Mark Allen Weiss Jonathan moore
             </author>
-            <seealso cref="T:algorithms.PairNode">
+            <seealso cref="T:FundamentalAlgorithms.PairNode">
             </seealso>
         </member>
-        <member name="P:algorithms.PairHeap.Empty">
+        <member name="P:FundamentalAlgorithms.PairHeap.Empty">
             <summary> Test if the priority queue is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="M:algorithms.PairHeap.#ctor">
+        <member name="M:FundamentalAlgorithms.PairHeap.#ctor">
             <summary> Construct the pairing heap.</summary>
         </member>
-        <member name="M:algorithms.PairHeap.insert(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.PairHeap.insert(FundamentalAlgorithms.Comparable)">
             <summary> Insert into the priority queue, and return a PairNode
             that can be used by decreaseKey.
             Duplicates are allowed.
@@ -862,17 +987,17 @@
             <returns> the node containing the newly inserted item.
             </returns>
         </member>
-        <member name="M:algorithms.PairHeap.findMin">
+        <member name="M:FundamentalAlgorithms.PairHeap.findMin">
             <summary> Find the smallest item in the priority queue.</summary>
             <returns> the smallest item, or null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.PairHeap.deleteMin">
+        <member name="M:FundamentalAlgorithms.PairHeap.deleteMin">
             <summary> Remove the smallest item from the priority queue.</summary>
             <returns> the smallest item, or null if empty.
             </returns>
         </member>
-        <member name="M:algorithms.PairHeap.decreaseKey(algorithms.PairNode,algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.PairHeap.decreaseKey(FundamentalAlgorithms.PairNode,FundamentalAlgorithms.Comparable)">
             <summary> Change the value of the item stored in the pairing heap.
             Does nothing if newVal is larger than the currently stored value.
             </summary>
@@ -882,10 +1007,10 @@
             than the currently stored value.
             </param>
         </member>
-        <member name="M:algorithms.PairHeap.makeEmpty">
+        <member name="M:FundamentalAlgorithms.PairHeap.makeEmpty">
             <summary> Make the priority queue logically empty.</summary>
         </member>
-        <member name="M:algorithms.PairHeap.compareAndLink(algorithms.PairNode,algorithms.PairNode)">
+        <member name="M:FundamentalAlgorithms.PairHeap.compareAndLink(FundamentalAlgorithms.PairNode,FundamentalAlgorithms.PairNode)">
             <summary> Internal method that is the basic operation to maintain order.
             Links first and second together to satisfy heap order.
             </summary>
@@ -897,137 +1022,137 @@
             <returns> result of the tree merge.
             </returns>
         </member>
-        <member name="M:algorithms.PairHeap.combineSiblings(algorithms.PairNode)">
+        <member name="M:FundamentalAlgorithms.PairHeap.combineSiblings(FundamentalAlgorithms.PairNode)">
             <summary> Internal method that implements two-pass merging.</summary>
             <param name="firstSibling">the root of the conglomerate;
             assumed not null.
             </param>
         </member>
-        <member name="T:algorithms.PairNode">
+        <member name="T:FundamentalAlgorithms.PairNode">
             <summary> Public class for use with PairHeap. It is public
             only to allow references to be sent to decreaseKey.
             It has no public methods or members.
             </summary>
             <author>  Mark Allen Weiss, Jonathan Moore
             </author>
-            <seealso cref="T:algorithms.PairHeap">
+            <seealso cref="T:FundamentalAlgorithms.PairHeap">
             </seealso>
         </member>
-        <member name="M:algorithms.PairNode.#ctor(algorithms.Comparable)">
+        <member name="M:FundamentalAlgorithms.PairNode.#ctor(FundamentalAlgorithms.Comparable)">
             <summary> Construct the PairNode.</summary>
             <param name="theElement">the value stored in the node.
             </param>
         </member>
-        <member name="T:algorithms.QueueAr">
+        <member name="T:FundamentalAlgorithms.QueueAr">
             <summary> Array-based implementation of the queue.</summary>
             <author>  Mark Allen Weiss Jonathn Moore
             </author>
         </member>
-        <member name="P:algorithms.QueueAr.Empty">
+        <member name="P:FundamentalAlgorithms.QueueAr.Empty">
             <summary> Test if the queue is logically empty.</summary>
             <returns> true if empty, false otherwise.
             </returns>
         </member>
-        <member name="P:algorithms.QueueAr.Full">
+        <member name="P:FundamentalAlgorithms.QueueAr.Full">
             <summary> Test if the queue is logically full.</summary>
             <returns> true if full, false otherwise.
             </returns>
         </member>
-        <member name="P:algorithms.QueueAr.Front">
+        <member name="P:FundamentalAlgorithms.QueueAr.Front">
             <summary> Get the least recently inserted item in the queue.
             Does not alter the queue.
             </summary>
             <returns> the least recently inserted item in the queue, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.QueueAr.#ctor">
+        <member name="M:FundamentalAlgorithms.QueueAr.#ctor">
             <summary> Construct the queue.</summary>
         </member>
-        <member name="M:algorithms.QueueAr.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.QueueAr.#ctor(System.Int32)">
             <summary> Construct the queue.</summary>
         </member>
-        <member name="M:algorithms.QueueAr.makeEmpty">
+        <member name="M:FundamentalAlgorithms.QueueAr.makeEmpty">
             <summary> Make the queue logically empty.</summary>
         </member>
-        <member name="M:algorithms.QueueAr.dequeue">
+        <member name="M:FundamentalAlgorithms.QueueAr.dequeue">
             <summary> Return and remove the least recently inserted item from the queue.</summary>
             <returns> the least recently inserted item in the queue, or null, if empty.
             </returns>
         </member>
-        <member name="M:algorithms.QueueAr.enqueue(System.Object)">
+        <member name="M:FundamentalAlgorithms.QueueAr.enqueue(System.Object)">
             <summary> Insert a new item into the queue.</summary>
             <param name="x">the item to insert.
             </param>
-            <exception cref="T:algorithms.Overflow">if queue is full.
+            <exception cref="T:FundamentalAlgorithms.Overflow">if queue is full.
             </exception>
         </member>
-        <member name="M:algorithms.QueueAr.increment(System.Int32)">
+        <member name="M:FundamentalAlgorithms.QueueAr.increment(System.Int32)">
             <summary> Internal method to increment with wraparound.</summary>
             <param name="x">any index in theArray's range.
             </param>
             <returns> x+1, or 0, if x is at the end of theArray.
             </returns>
         </member>
-        <member name="M:algorithms.Rotations.withLeftChild(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.Rotations.withLeftChild(FundamentalAlgorithms.BinaryNode)">
             <summary> Rotate binary tree node with left child.
             For AVL trees, this is a single rotation for case 1.
             </summary>
         </member>
-        <member name="M:algorithms.Rotations.withRightChild(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.Rotations.withRightChild(FundamentalAlgorithms.BinaryNode)">
             <summary> Rotate binary tree node with right child.
             For AVL trees, this is a single rotation for case 4.
             </summary>
         </member>
-        <member name="M:algorithms.Rotations.doubleWithLeftChild(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.Rotations.doubleWithLeftChild(FundamentalAlgorithms.BinaryNode)">
             <summary> Double rotate binary tree node: first left child
             with its right child; then node k3 with new left child.
             For AVL trees, this is a double rotation for case 2.
             </summary>
         </member>
-        <member name="M:algorithms.Rotations.doubleWithRightChild(algorithms.BinaryNode)">
+        <member name="M:FundamentalAlgorithms.Rotations.doubleWithRightChild(FundamentalAlgorithms.BinaryNode)">
             <summary> Double rotate binary tree node: first right child
             with its left child; then node k1 with new right child.
             For AVL trees, this is a double rotation for case 3.
             </summary>
         </member>
-        <member name="T:algorithms.SeparateChainingHashTable">
+        <member name="T:FundamentalAlgorithms.SeparateChainingHashTable">
             <summary> Separate chaining table implementation of hash tables.
             Note that all "matching" is based on the equals method.
             </summary>
             <author>  Mark Allen Weiss Jonathan Moore
             </author>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.#ctor">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.#ctor">
             <summary> Construct the hash table.</summary>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.#ctor(System.Int32)">
             <summary> Construct the hash table.</summary>
             <param name="size">approximate table size.
             </param>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.insert(algorithms.Hashable)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.insert(FundamentalAlgorithms.Hashable)">
             <summary> Insert into the hash table. If the item is
             already present, then do nothing.
             </summary>
             <param name="x">the item to insert.
             </param>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.remove(algorithms.Hashable)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.remove(FundamentalAlgorithms.Hashable)">
             <summary> Remove from the hash table.</summary>
             <param name="x">the item to remove.
             </param>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.find(algorithms.Hashable)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.find(FundamentalAlgorithms.Hashable)">
             <summary> Find an item in the hash table.</summary>
             <param name="x">the item to search for.
             </param>
             <returns> the matching item, or null if not found.
             </returns>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.makeEmpty">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.makeEmpty">
             <summary> Make the hash table logically empty.</summary>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.hash(System.String,System.Int32)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.hash(System.String,System.Int32)">
             <summary> A hash routine for String objects.</summary>
             <param name="key">the String to hash.
             </param>
@@ -1036,17 +1161,17 @@
             <returns> the hash value.
             </returns>
         </member>
-        <member name="F:algorithms.SeparateChainingHashTable.theLists">
+        <member name="F:FundamentalAlgorithms.SeparateChainingHashTable.theLists">
             <summary>The array of Lists. </summary>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.nextPrime(System.Int32)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.nextPrime(System.Int32)">
             <summary> Internal method to find a prime number at least as large as n.</summary>
             <param name="n">the starting number (must be positive).
             </param>
             <returns> a prime number larger than or equal to n.
             </returns>
         </member>
-        <member name="M:algorithms.SeparateChainingHashTable.isPrime(System.Int32)">
+        <member name="M:FundamentalAlgorithms.SeparateChainingHashTable.isPrime(System.Int32)">
             <summary> Internal method to test if a number is prime.
             Not an efficient algorithm.
             </summary>
@@ -1055,314 +1180,7 @@
             <returns> the result of the test.
             </returns>
         </member>
-        <member name="T:algorithms.SplayTree">
-            <summary> Implements a top-down splay tree.
-            Note that all "matching" is based on the compareTo method.
-            </summary>
-            <author>  Mark Allen Weiss
-            </author>
-        </member>
-        <member name="P:algorithms.SplayTree.Empty">
-            <summary> Test if the tree is logically empty.</summary>
-            <returns> true if empty, false otherwise.
-            </returns>
-        </member>
-        <member name="M:algorithms.SplayTree.#ctor">
-            <summary> Construct the tree.</summary>
-        </member>
-        <member name="M:algorithms.SplayTree.insert(algorithms.Comparable)">
-            <summary> Insert into the tree.</summary>
-            <param name="x">the item to insert.
-            </param>
-        </member>
-        <member name="M:algorithms.SplayTree.remove(algorithms.Comparable)">
-            <summary> Remove from the tree.</summary>
-            <param name="x">the item to remove.
-            </param>
-        </member>
-        <member name="M:algorithms.SplayTree.findMin">
-            <summary> Find the smallest item in the tree.
-            Not the most efficient implementation (uses two passes), but has correct
-            amortized behavior.
-            A good alternative is to first call Find with parameter
-            smaller than any item in the tree, then call findMin.
-            </summary>
-            <returns> the smallest item or null if empty.
-            </returns>
-        </member>
-        <member name="M:algorithms.SplayTree.findMax">
-            <summary> Find the largest item in the tree.
-            Not the most efficient implementation (uses two passes), but has correct
-            amortized behavior.
-            A good alternative is to first call Find with parameter
-            larger than any item in the tree, then call findMax.
-            </summary>
-            <returns> the largest item or null if empty.
-            </returns>
-        </member>
-        <member name="M:algorithms.SplayTree.find(algorithms.Comparable)">
-            <summary> Find an item in the tree.</summary>
-            <param name="x">the item to search for.
-            </param>
-            <returns> the matching item or null if not found.
-            </returns>
-        </member>
-        <member name="M:algorithms.SplayTree.makeEmpty">
-            <summary> Make the tree logically empty.</summary>
-        </member>
-        <member name="M:algorithms.SplayTree.printTree">
-            <summary> Print the tree contents in sorted order.</summary>
-        </member>
-        <member name="M:algorithms.SplayTree.splay(algorithms.Comparable,algorithms.BinaryNode)">
-            <summary> Internal method to perform a top-down splay.
-            The last accessed node becomes the new root.
-            </summary>
-            <param name="x">the target item to splay around.
-            </param>
-            <param name="t">the root of the subtree to splay.
-            </param>
-            <returns> the subtree after the splay.
-            </returns>
-        </member>
-        <member name="M:algorithms.SplayTree.rotateWithLeftChild(algorithms.BinaryNode)">
-            <summary> Rotate binary tree node with left child.</summary>
-        </member>
-        <member name="M:algorithms.SplayTree.rotateWithRightChild(algorithms.BinaryNode)">
-            <summary> Rotate binary tree node with right child.</summary>
-        </member>
-        <member name="M:algorithms.SplayTree.printTree(algorithms.BinaryNode)">
-            <summary> Internal method to print a subtree in sorted order.
-            WARNING: This is prone to running out of stack space.
-            </summary>
-            <param name="t">the node that roots the tree.
-            </param>
-        </member>
-        <member name="T:algorithms.StackAr">
-            <summary> Array-based implementation of the stack.</summary>
-            <author>  Mark Allen Weiss Jonathan Moore
-            </author>
-        </member>
-        <member name="P:algorithms.StackAr.Empty">
-            <summary> Test if the stack is logically empty.</summary>
-            <returns> true if empty, false otherwise.
-            </returns>
-        </member>
-        <member name="P:algorithms.StackAr.Full">
-            <summary> Test if the stack is logically full.</summary>
-            <returns> true if full, false otherwise.
-            </returns>
-        </member>
-        <member name="M:algorithms.StackAr.#ctor">
-            <summary> Construct the stack.</summary>
-        </member>
-        <member name="M:algorithms.StackAr.#ctor(System.Int32)">
-            <summary> Construct the stack.</summary>
-            <param name="capacity">the capacity.
-            </param>
-        </member>
-        <member name="M:algorithms.StackAr.makeEmpty">
-            <summary> Make the stack logically empty.</summary>
-        </member>
-        <member name="M:algorithms.StackAr.top">
-            <summary> Get the most recently inserted item in the stack.
-            Does not alter the stack.
-            </summary>
-            <returns> the most recently inserted item in the stack, or null, if empty.
-            </returns>
-        </member>
-        <member name="M:algorithms.StackAr.pop">
-            <summary> Remove the most recently inserted item from the stack.</summary>
-            <exception cref="T:algorithms.Underflow">if stack is already empty.
-            </exception>
-        </member>
-        <member name="M:algorithms.StackAr.push(System.Object)">
-            <summary> Insert a new item into the stack, if not already full.</summary>
-            <param name="x">the item to insert.
-            </param>
-            <exception cref="T:algorithms.Overflow">if stack is already full.
-            </exception>
-        </member>
-        <member name="M:algorithms.StackAr.topAndPop">
-            <summary> Return and remove most recently inserted item from the stack.</summary>
-            <returns> most recently inserted item, or null, if stack is empty.
-            </returns>
-        </member>
-        <member name="T:algorithms.StackLi">
-            <summary> List-based implementation of the stack.</summary>
-            <author>  Mark Allen Weiss Jonathan Moore
-            </author>
-        </member>
-        <member name="P:algorithms.StackLi.Full">
-            <summary> Test if the stack is logically full.</summary>
-            <returns> false always, in this implementation.
-            </returns>
-        </member>
-        <member name="P:algorithms.StackLi.Empty">
-            <summary> Test if the stack is logically empty.</summary>
-            <returns> true if empty, false otherwise.
-            </returns>
-        </member>
-        <member name="M:algorithms.StackLi.#ctor">
-            <summary> Construct the stack.</summary>
-        </member>
-        <member name="M:algorithms.StackLi.makeEmpty">
-            <summary> Make the stack logically empty.</summary>
-        </member>
-        <member name="M:algorithms.StackLi.top">
-            <summary> Get the most recently inserted item in the stack.
-            Does not alter the stack.
-            </summary>
-            <returns> the most recently inserted item in the stack, or null, if empty.
-            </returns>
-        </member>
-        <member name="M:algorithms.StackLi.pop">
-            <summary> Remove the most recently inserted item from the stack.</summary>
-            <exception cref="T:algorithms.Underflow">if the stack is empty.
-            </exception>
-        </member>
-        <member name="M:algorithms.StackLi.topAndPop">
-            <summary> Return and remove the most recently inserted item from the stack.</summary>
-            <returns> the most recently inserted item in the stack, or null, if empty.
-            </returns>
-        </member>
-        <member name="M:algorithms.StackLi.push(System.Object)">
-            <summary> Insert a new item into the stack.</summary>
-            <param name="x">the item to insert.
-            </param>
-        </member>
-        <member name="T:algorithms.Underflow">
-            <summary> Exception class for access in empty containers
-            such as stacks, queues, and priority queues.
-            </summary>
-            <author>  Mark Allen Weiss Jonathan Moore
-            </author>
-        </member>
-        <member name="F:Program._random">
-            <summary>
-            Used in Shuffle(T).
-            </summary>
-        </member>
-        <member name="M:Program.Shuffle``1(``0[])">
-            <summary>
-            Shuffle the array.
-            </summary>
-            <typeparam name="T">Array element type.</typeparam>
-            <param name="array">Array to shuffle.</param>
-        </member>
-        <member name="T:BoyerMoore.BoyerMoore">
-            <summary>
-            Class that implements Boyer-Moore and related exact string-matching algorithms
-            </summary>
-            <remarks>
-            From "Handbook of exact string-matching algorithms"
-              by Christian Charras and Thierry Lecroq
-              chapter 15
-            http://www-igm.univ-mlv.fr/~lecroq/string/node15.html#SECTION00150
-            </remarks>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.#ctor(System.String)">
-            <summary>
-            Constructor
-            </summary>
-            <param name="pattern">Pattern for search</param>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.BuildBadCharacterShift(System.String)">
-            <summary>
-            Build the bad character shift array.
-            </summary>
-            <param name="pattern">Pattern for search</param>
-            <returns>bad character shift array</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.FindSuffixes(System.String)">
-            <summary>
-            Find suffixes in the pattern
-            </summary>
-            <param name="pattern">Pattern for search</param>
-            <returns>Suffix array</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.BuildGoodSuffixShift(System.String,System.Int32[])">
-            <summary>
-            Build the good suffix array.
-            </summary>
-            <param name="pattern">Pattern for search</param>
-            <returns>Good suffix shift array</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.BCLMatch(System.String,System.Int32)">
-            <summary>
-            Return all matched of the pattern in the specified text using the .NET String.indexOf API
-            </summary>
-            <param name="text">text to be searched</param>
-            <param name="startingIndex">Index at which search begins</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.BCLMatch(System.String)">
-            <summary>
-            Return all matched of the pattern in the specified text using the .NET String.indexOf API
-            </summary>
-            <param name="text">text to be searched</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String,System.Int32)">
-            <summary>
-            Return all matches of the pattern in specified text using the Horspool algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <param name="startingIndex">Index at which search begins</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.HorspoolMatch(System.String)">
-            <summary>
-            Return all matches of the pattern in specified text using the Horspool algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String,System.Int32)">
-            <summary>
-            Return all matches of the pattern in specified text using the Boyer-Moore algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <param name="startingIndex">Index at which search begins</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.BoyerMooreMatch(System.String)">
-            <summary>
-            Return all matches of the pattern in specified text using the Boyer-Moore algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String,System.Int32)">
-            <summary>
-            Return all matches of the pattern in specified text using the Turbo Boyer-Moore algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <param name="startingIndex">Index at which search begins</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.TurboBoyerMooreMatch(System.String)">
-            <summary>
-            Return all matches of the pattern in specified text using the Turbo Boyer-Moore algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String,System.Int32)">
-            <summary>
-            Return all matches of the pattern in specified text using the Apostolico-GiancarloMatch algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <param name="startingIndex">Index at which search begins</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="M:BoyerMoore.BoyerMoore.ApostolicoGiancarloMatch(System.String)">
-            <summary>
-            Return all matches of the pattern in specified text using the Apostolico-GiancarloMatch algorithm
-            </summary>
-            <param name="text">text to be searched</param>
-            <returns>IEnumerable which returns the indexes of pattern matches</returns>
-        </member>
-        <member name="T:LSCollections.SkipList">
+        <member name="T:FundamentalAlgorithms.SkipList">
             <summary>
             Represents a collection of key-and-value pairs.
             </summary>
@@ -1371,7 +1189,7 @@
             is based on the data structure created by William Pugh.
             </remarks> 
         </member>
-        <member name="M:LSCollections.SkipList.#ctor">
+        <member name="M:FundamentalAlgorithms.SkipList.#ctor">
             <summary>
             Initializes a new instance of the SkipList class that is empty and 
             is sorted according to the IComparable interface implemented by 
@@ -1384,7 +1202,7 @@
             added to the SkipList.
             </remarks>
         </member>
-        <member name="M:LSCollections.SkipList.#ctor(System.Collections.IComparer)">
+        <member name="M:FundamentalAlgorithms.SkipList.#ctor(System.Collections.IComparer)">
             <summary>
             Initializes a new instance of the SkipList class that is empty and 
             is sorted according to the specified IComparer interface.
@@ -1400,12 +1218,12 @@
             with every other key in the SkipList.
             </remarks>
         </member>
-        <member name="M:LSCollections.SkipList.Initialize">
+        <member name="M:FundamentalAlgorithms.SkipList.Initialize">
             <summary>
             Initializes the SkipList.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.GetNewLevel">
+        <member name="M:FundamentalAlgorithms.SkipList.GetNewLevel">
             <summary>
             Returns a level value for a new SkipList node.
             </summary>
@@ -1413,7 +1231,7 @@
             The level value for a new SkipList node.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.Search(System.Object)">
+        <member name="M:FundamentalAlgorithms.SkipList.Search(System.Object)">
             <summary>
             Searches for the specified key.
             </summary>
@@ -1424,7 +1242,7 @@
             Returns true if the specified key is in the SkipList.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.Search(System.Object,LSCollections.SkipList.Node@)">
+        <member name="M:FundamentalAlgorithms.SkipList.Search(System.Object,FundamentalAlgorithms.SkipList.Node@)">
             <summary>
             Searches for the specified key.
             </summary>
@@ -1440,7 +1258,7 @@
             <remarks>
             </remarks>
         </member>
-        <member name="M:LSCollections.SkipList.Search(System.Object,LSCollections.SkipList.Node[])">
+        <member name="M:FundamentalAlgorithms.SkipList.Search(System.Object,FundamentalAlgorithms.SkipList.Node[])">
             <summary>
             Searches for the specified key.
             </summary>
@@ -1455,7 +1273,7 @@
             Returns true if the specified key is in the SkipList.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.Search(System.Object,LSCollections.SkipList.Node@,LSCollections.SkipList.Node[])">
+        <member name="M:FundamentalAlgorithms.SkipList.Search(System.Object,FundamentalAlgorithms.SkipList.Node@,FundamentalAlgorithms.SkipList.Node[])">
             <summary>
             Searches for the specified key.
             </summary>
@@ -1473,7 +1291,7 @@
             Returns true if the specified key is in the SkipList.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.SearchWithComparer(System.Object,LSCollections.SkipList.Node@,LSCollections.SkipList.Node[])">
+        <member name="M:FundamentalAlgorithms.SkipList.SearchWithComparer(System.Object,FundamentalAlgorithms.SkipList.Node@,FundamentalAlgorithms.SkipList.Node[])">
             <summary>
             Search for the specified key using a comparer.
             </summary>
@@ -1491,7 +1309,7 @@
             Returns true if the specified key is in the SkipList.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.SearchWithComparable(System.Object,LSCollections.SkipList.Node@,LSCollections.SkipList.Node[])">
+        <member name="M:FundamentalAlgorithms.SkipList.SearchWithComparable(System.Object,FundamentalAlgorithms.SkipList.Node@,FundamentalAlgorithms.SkipList.Node[])">
             <summary>
             Search for the specified key using the IComparable interface 
             implemented by each key.
@@ -1520,7 +1338,7 @@
             that the search reached the end of the SkipList.
             </remarks>
         </member>
-        <member name="M:LSCollections.SkipList.Insert(System.Object,System.Object,LSCollections.SkipList.Node[])">
+        <member name="M:FundamentalAlgorithms.SkipList.Insert(System.Object,System.Object,FundamentalAlgorithms.SkipList.Node[])">
             <summary>
             Inserts a key/value pair into the SkipList.
             </summary>
@@ -1536,12 +1354,12 @@
             dropped down one level.
             </param>
         </member>
-        <member name="T:LSCollections.SkipList.Node">
+        <member name="T:FundamentalAlgorithms.SkipList.Node">
             <summary>
             Represents a node in the SkipList.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.Node.#ctor(System.Int32)">
+        <member name="M:FundamentalAlgorithms.SkipList.Node.#ctor(System.Int32)">
             <summary>
             Initializes an instant of a Node with its node level.
             </summary>
@@ -1549,7 +1367,7 @@
             The node level.
             </param>
         </member>
-        <member name="M:LSCollections.SkipList.Node.#ctor(System.Int32,System.Object,System.Object)">
+        <member name="M:FundamentalAlgorithms.SkipList.Node.#ctor(System.Int32,System.Object,System.Object)">
             <summary>
             Initializes an instant of a Node with its node level and 
             key/value pair.
@@ -1564,39 +1382,39 @@
             The value for the node.
             </param>
         </member>
-        <member name="M:LSCollections.SkipList.Node.Dispose">
+        <member name="M:FundamentalAlgorithms.SkipList.Node.Dispose">
             <summary>
             Disposes the Node.
             </summary>
         </member>
-        <member name="T:LSCollections.SkipList.SkipListEnumerator">
+        <member name="T:FundamentalAlgorithms.SkipList.SkipListEnumerator">
             <summary>
             Enumerates the elements of a skip list.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.SkipListEnumerator.#ctor(LSCollections.SkipList)">
+        <member name="M:FundamentalAlgorithms.SkipList.SkipListEnumerator.#ctor(FundamentalAlgorithms.SkipList)">
             <summary>
             Initializes an instance of a SkipListEnumerator.
             </summary>
             <param name="list"></param>
         </member>
-        <member name="P:LSCollections.SkipList.SkipListEnumerator.Entry">
+        <member name="P:FundamentalAlgorithms.SkipList.SkipListEnumerator.Entry">
             <summary>
             Gets both the key and the value of the current dictionary 
             entry.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.SkipListEnumerator.Key">
+        <member name="P:FundamentalAlgorithms.SkipList.SkipListEnumerator.Key">
             <summary>
             Gets the key of the current dictionary entry.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.SkipListEnumerator.Value">
+        <member name="P:FundamentalAlgorithms.SkipList.SkipListEnumerator.Value">
             <summary>
             Gets the value of the current dictionary entry.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.SkipListEnumerator.MoveNext">
+        <member name="M:FundamentalAlgorithms.SkipList.SkipListEnumerator.MoveNext">
             <summary>
             Advances the enumerator to the next element of the skip list.
             </summary>
@@ -1606,18 +1424,18 @@
             skip list.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.SkipListEnumerator.Reset">
+        <member name="M:FundamentalAlgorithms.SkipList.SkipListEnumerator.Reset">
             <summary>
             Sets the enumerator to its initial position, which is before 
             the first element in the skip list.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.SkipListEnumerator.Current">
+        <member name="P:FundamentalAlgorithms.SkipList.SkipListEnumerator.Current">
             <summary>
             Gets the current element in the skip list.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.Add(System.Object,System.Object)">
+        <member name="M:FundamentalAlgorithms.SkipList.Add(System.Object,System.Object)">
             <summary>
             Adds an element with the provided key and value to the SkipList.
             </summary>
@@ -1628,12 +1446,12 @@
             The Object to use as the value of the element to add. 
             </param>
         </member>
-        <member name="M:LSCollections.SkipList.Clear">
+        <member name="M:FundamentalAlgorithms.SkipList.Clear">
             <summary>
             Removes all elements from the SkipList.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.Contains(System.Object)">
+        <member name="M:FundamentalAlgorithms.SkipList.Contains(System.Object)">
             <summary>
             Determines whether the SkipList contains an element with the 
             specified key.
@@ -1646,7 +1464,7 @@
             false.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.GetEnumerator">
+        <member name="M:FundamentalAlgorithms.SkipList.GetEnumerator">
             <summary>
             Returns an IDictionaryEnumerator for the SkipList.
             </summary>
@@ -1654,7 +1472,7 @@
             An IDictionaryEnumerator for the SkipList.
             </returns>
         </member>
-        <member name="M:LSCollections.SkipList.Remove(System.Object)">
+        <member name="M:FundamentalAlgorithms.SkipList.Remove(System.Object)">
             <summary>
             Removes the element with the specified key from the SkipList.
             </summary>
@@ -1662,33 +1480,33 @@
             The key of the element to remove.
             </param>
         </member>
-        <member name="P:LSCollections.SkipList.IsFixedSize">
+        <member name="P:FundamentalAlgorithms.SkipList.IsFixedSize">
             <summary>
             Gets a value indicating whether the SkipList has a fixed size.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.IsReadOnly">
+        <member name="P:FundamentalAlgorithms.SkipList.IsReadOnly">
             <summary>
             Gets a value indicating whether the IDictionary is read-only.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.Item(System.Object)">
+        <member name="P:FundamentalAlgorithms.SkipList.Item(System.Object)">
             <summary>
             Gets or sets the element with the specified key. This is the 
             indexer for the SkipList. 
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.Keys">
+        <member name="P:FundamentalAlgorithms.SkipList.Keys">
             <summary>
             Gets an ICollection containing the keys of the SkipList.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.Values">
+        <member name="P:FundamentalAlgorithms.SkipList.Values">
             <summary>
             Gets an ICollection containing the values of the SkipList.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.CopyTo(System.Array,System.Int32)">
+        <member name="M:FundamentalAlgorithms.SkipList.CopyTo(System.Array,System.Int32)">
             <summary>
             Copies the elements of the SkipList to an Array, starting at a 
             particular Array index.
@@ -1701,30 +1519,212 @@
             The zero-based index in array at which copying begins.
             </param>
         </member>
-        <member name="P:LSCollections.SkipList.Count">
+        <member name="P:FundamentalAlgorithms.SkipList.Count">
             <summary>
             Gets the number of elements contained in the SkipList.
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.IsSynchronized">
+        <member name="P:FundamentalAlgorithms.SkipList.IsSynchronized">
             <summary>
             Gets a value indicating whether access to the SkipList is 
             synchronized (thread-safe).
             </summary>
         </member>
-        <member name="P:LSCollections.SkipList.SyncRoot">
+        <member name="P:FundamentalAlgorithms.SkipList.SyncRoot">
             <summary>
             Gets an object that can be used to synchronize access to the 
             SkipList.
             </summary>
         </member>
-        <member name="M:LSCollections.SkipList.System#Collections#IEnumerable#GetEnumerator">
+        <member name="M:FundamentalAlgorithms.SkipList.System#Collections#IEnumerable#GetEnumerator">
             <summary>
             Returns an enumerator that can iterate through the SkipList.
             </summary>
             <returns>
             An IEnumerator that can be used to iterate through the collection.
             </returns>
+        </member>
+        <member name="T:FundamentalAlgorithms.SplayTree">
+            <summary> Implements a top-down splay tree.
+            Note that all "matching" is based on the compareTo method.
+            </summary>
+            <author>  Mark Allen Weiss
+            </author>
+        </member>
+        <member name="P:FundamentalAlgorithms.SplayTree.Empty">
+            <summary> Test if the tree is logically empty.</summary>
+            <returns> true if empty, false otherwise.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.#ctor">
+            <summary> Construct the tree.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.insert(FundamentalAlgorithms.Comparable)">
+            <summary> Insert into the tree.</summary>
+            <param name="x">the item to insert.
+            </param>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.remove(FundamentalAlgorithms.Comparable)">
+            <summary> Remove from the tree.</summary>
+            <param name="x">the item to remove.
+            </param>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.findMin">
+            <summary> Find the smallest item in the tree.
+            Not the most efficient implementation (uses two passes), but has correct
+            amortized behavior.
+            A good alternative is to first call Find with parameter
+            smaller than any item in the tree, then call findMin.
+            </summary>
+            <returns> the smallest item or null if empty.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.findMax">
+            <summary> Find the largest item in the tree.
+            Not the most efficient implementation (uses two passes), but has correct
+            amortized behavior.
+            A good alternative is to first call Find with parameter
+            larger than any item in the tree, then call findMax.
+            </summary>
+            <returns> the largest item or null if empty.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.find(FundamentalAlgorithms.Comparable)">
+            <summary> Find an item in the tree.</summary>
+            <param name="x">the item to search for.
+            </param>
+            <returns> the matching item or null if not found.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.makeEmpty">
+            <summary> Make the tree logically empty.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.printTree">
+            <summary> Print the tree contents in sorted order.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.splay(FundamentalAlgorithms.Comparable,FundamentalAlgorithms.BinaryNode)">
+            <summary> Internal method to perform a top-down splay.
+            The last accessed node becomes the new root.
+            </summary>
+            <param name="x">the target item to splay around.
+            </param>
+            <param name="t">the root of the subtree to splay.
+            </param>
+            <returns> the subtree after the splay.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.rotateWithLeftChild(FundamentalAlgorithms.BinaryNode)">
+            <summary> Rotate binary tree node with left child.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.rotateWithRightChild(FundamentalAlgorithms.BinaryNode)">
+            <summary> Rotate binary tree node with right child.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.SplayTree.printTree(FundamentalAlgorithms.BinaryNode)">
+            <summary> Internal method to print a subtree in sorted order.
+            WARNING: This is prone to running out of stack space.
+            </summary>
+            <param name="t">the node that roots the tree.
+            </param>
+        </member>
+        <member name="T:FundamentalAlgorithms.StackAr">
+            <summary> Array-based implementation of the stack.</summary>
+            <author>  Mark Allen Weiss Jonathan Moore
+            </author>
+        </member>
+        <member name="P:FundamentalAlgorithms.StackAr.Empty">
+            <summary> Test if the stack is logically empty.</summary>
+            <returns> true if empty, false otherwise.
+            </returns>
+        </member>
+        <member name="P:FundamentalAlgorithms.StackAr.Full">
+            <summary> Test if the stack is logically full.</summary>
+            <returns> true if full, false otherwise.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.#ctor">
+            <summary> Construct the stack.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.#ctor(System.Int32)">
+            <summary> Construct the stack.</summary>
+            <param name="capacity">the capacity.
+            </param>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.makeEmpty">
+            <summary> Make the stack logically empty.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.top">
+            <summary> Get the most recently inserted item in the stack.
+            Does not alter the stack.
+            </summary>
+            <returns> the most recently inserted item in the stack, or null, if empty.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.pop">
+            <summary> Remove the most recently inserted item from the stack.</summary>
+            <exception cref="T:FundamentalAlgorithms.Underflow">if stack is already empty.
+            </exception>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.push(System.Object)">
+            <summary> Insert a new item into the stack, if not already full.</summary>
+            <param name="x">the item to insert.
+            </param>
+            <exception cref="T:FundamentalAlgorithms.Overflow">if stack is already full.
+            </exception>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackAr.topAndPop">
+            <summary> Return and remove most recently inserted item from the stack.</summary>
+            <returns> most recently inserted item, or null, if stack is empty.
+            </returns>
+        </member>
+        <member name="T:FundamentalAlgorithms.StackLi">
+            <summary> List-based implementation of the stack.</summary>
+            <author>  Mark Allen Weiss Jonathan Moore
+            </author>
+        </member>
+        <member name="P:FundamentalAlgorithms.StackLi.Full">
+            <summary> Test if the stack is logically full.</summary>
+            <returns> false always, in this implementation.
+            </returns>
+        </member>
+        <member name="P:FundamentalAlgorithms.StackLi.Empty">
+            <summary> Test if the stack is logically empty.</summary>
+            <returns> true if empty, false otherwise.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackLi.#ctor">
+            <summary> Construct the stack.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackLi.makeEmpty">
+            <summary> Make the stack logically empty.</summary>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackLi.top">
+            <summary> Get the most recently inserted item in the stack.
+            Does not alter the stack.
+            </summary>
+            <returns> the most recently inserted item in the stack, or null, if empty.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackLi.pop">
+            <summary> Remove the most recently inserted item from the stack.</summary>
+            <exception cref="T:FundamentalAlgorithms.Underflow">if the stack is empty.
+            </exception>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackLi.topAndPop">
+            <summary> Return and remove the most recently inserted item from the stack.</summary>
+            <returns> the most recently inserted item in the stack, or null, if empty.
+            </returns>
+        </member>
+        <member name="M:FundamentalAlgorithms.StackLi.push(System.Object)">
+            <summary> Insert a new item into the stack.</summary>
+            <param name="x">the item to insert.
+            </param>
+        </member>
+        <member name="T:FundamentalAlgorithms.Underflow">
+            <summary> Exception class for access in empty containers
+            such as stacks, queues, and priority queues.
+            </summary>
+            <author>  Mark Allen Weiss Jonathan Moore
+            </author>
         </member>
     </members>
 </doc>
