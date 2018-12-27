@@ -1,0 +1,5 @@
+BernhardJ
+
+The commandline in the directory C:\Program Files (x86)\Microsoft Help Viewer\v2.2
+
+HlpCtntMgr.exe /operation install /catalogName VisualStudio14 /locale en-us /sourceUri "<path>\MCH_NET.msha"
