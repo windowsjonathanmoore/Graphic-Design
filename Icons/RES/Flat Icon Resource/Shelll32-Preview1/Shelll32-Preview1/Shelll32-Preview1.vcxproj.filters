@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Acrobat Reader.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe After Effects.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Audition.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Bridge.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Contribute.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Creative Cloud.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Dreamweaver.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Encore.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Fireworks.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Flash Builder.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Flash Catalyst.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Flash.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Illustrator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe InDesign.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe LightRoom.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe OnLocation.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Photoshop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Premiere Pro.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Soundbooth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Story.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Advanced Systemcare.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Aero WinFlip 3D.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\AIM.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Aimp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Angry Birds.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Audacity.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\AutoDesk 3DS Max.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Autodesk.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Avast Antivirus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled 2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled 3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled Twist.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\BitTorrent.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Blender.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bluetooth alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bluetooth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Calculator alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Calculator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Calendar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Camstudio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Camtasia Studio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\CCleaner.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Chuzzle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Circle Dock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Coding App.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\CrashPlan.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Digsby.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Dropbox.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Eclipse.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Email Chat.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Evernote.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Expose.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\FileZilla.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\FL Studio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Flipboard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Foobar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Fraps.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\GIMP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\GOM Player.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Google Sketchup 2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\GrooveShark.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\HTML5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iCloud alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iCloud.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Inkscape.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Instagram.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Internet Download Manager.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iOS Facetime.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\IrFan View.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iTunes alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iTunes.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Jahshaka.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\KMPlayer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Koding.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Kompozer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Launchy alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Launchy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Lightwave.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\LightWorks.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Limewire alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Limewire.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Mail.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger alt 1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger alt 2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger alt 3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Sync.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac App Store alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac App Store.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac Dashboard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iCal.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iChat alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iChat.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iMovie.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac Photo Booth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac Spaces.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Magnifier.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\MalwareBytes.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Messaging alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Messaging.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Microsoft Security Essentials.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Minecraft.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Nero.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\No$GBA.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Nokia Suite alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Nokia Suite.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Notepad alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Notepad.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Notepad++.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\ObjectDock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Other Antivirus Software.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Paint NET.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Paint.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Peggle Nights.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Picture Viewer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Pidgin.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\QuickTime.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Rainmeter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\RealPlayer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\RKLauncher.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\RocketDock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Screenshot.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\SkyDrive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Skype alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Skype.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Speccy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Spotify alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Spotify.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\StarDock Fences.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\StarDock Start8.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Steam alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Steam.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Sublime Text 2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Thunderbird.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Trillian.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Tune-Up Utilities.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\UltraISO.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Uninstall.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\uTorrent alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\uTorrent.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\VirtualBox.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Visual Studio 2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Visual Studio alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Visual Studio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\VLC Media Player.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\VMware.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Winamp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Maps.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Messaging.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 News.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Photos.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Store.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows Live Mesh.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows Media Player alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows Media Player.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows MovieMaker.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Wordpad.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Xunlei.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\XWindows Dock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Yahoo Messenger alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Yahoo Messenger.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Y%27z Dock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Zuma.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Zune alt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Zune.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Applications.txt" />
+  </ItemGroup>
+</Project>

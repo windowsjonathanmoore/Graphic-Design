@@ -1,2 +1,0 @@
-# cat ${*-"tags"} | grep function | sed -e 's/[   ].*//'
-cat ${*-"tags"} | grep function

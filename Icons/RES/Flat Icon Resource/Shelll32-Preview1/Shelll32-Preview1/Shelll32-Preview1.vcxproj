@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F3D92B44-C9D3-471B-9BED-0641B4DF639A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Shelll32Preview1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;SHELLL32PREVIEW1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;SHELLL32PREVIEW1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;SHELLL32PREVIEW1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;SHELLL32PREVIEW1_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Acrobat Reader.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe After Effects.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Audition.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Bridge.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Contribute.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Creative Cloud.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Dreamweaver.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Encore.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Fireworks.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Flash Builder.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Flash Catalyst.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Flash.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Illustrator.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe InDesign.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe LightRoom.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe OnLocation.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Photoshop.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Premiere Pro.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Soundbooth.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Adobe Story.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Advanced Systemcare.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Aero WinFlip 3D.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\AIM.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Aimp.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Angry Birds.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Audacity.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\AutoDesk 3DS Max.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Autodesk.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Avast Antivirus.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled 2.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled 3.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled Twist.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bejeweled.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\BitTorrent.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Blender.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bluetooth alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Bluetooth.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Calculator alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Calculator.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Calendar.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Camstudio.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Camtasia Studio.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\CCleaner.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Chuzzle.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Circle Dock.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Coding App.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\CrashPlan.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Digsby.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Dropbox.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Eclipse.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Email Chat.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Evernote.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Expose.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\FileZilla.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\FL Studio.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Flipboard.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Foobar.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Fraps.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\GIMP.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\GOM Player.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Google Sketchup 2012.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\GrooveShark.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\HTML5.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iCloud alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iCloud.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Inkscape.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Instagram.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Internet Download Manager.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iOS Facetime.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\IrFan View.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iTunes alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\iTunes.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Jahshaka.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\KMPlayer.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Koding.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Kompozer.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Launchy alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Launchy.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Lightwave.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\LightWorks.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Limewire alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Limewire.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Mail.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger alt 1.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger alt 2.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger alt 3.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Messenger.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Live Sync.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac App Store alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac App Store.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac Dashboard.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iCal.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iChat alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iChat.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac iMovie.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac Photo Booth.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Mac Spaces.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Magnifier.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\MalwareBytes.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Messaging alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Messaging.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Microsoft Security Essentials.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Minecraft.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Nero.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\No$GBA.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Nokia Suite alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Nokia Suite.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Notepad alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Notepad++.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Notepad.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\ObjectDock.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Other Antivirus Software.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Paint NET.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Paint.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Peggle Nights.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Picture Viewer.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Pidgin.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\QuickTime.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Rainmeter.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\RealPlayer.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\RKLauncher.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\RocketDock.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Screenshot.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\SkyDrive.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Skype alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Skype.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Speccy.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Spotify alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Spotify.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\StarDock Fences.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\StarDock Start8.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Steam alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Steam.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Sublime Text 2.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Thunderbird.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Trillian.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Tune-Up Utilities.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\UltraISO.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Uninstall.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\uTorrent alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\uTorrent.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\VirtualBox.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Visual Studio 2012.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Visual Studio alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Visual Studio.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\VLC Media Player.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\VMware.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Winamp.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Maps.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Messaging.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 News.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Photos.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows 8 Store.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows Live Mesh.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows Media Player alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows Media Player.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Windows MovieMaker.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Wordpad.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Xunlei.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\XWindows Dock.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Y%27z Dock.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Yahoo Messenger alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Yahoo Messenger.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Zuma.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Zune alt.ico" />
+    <Image Include="..\..\..\..\ICO\Flat Design\Applications\ICO\Zune.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Applications.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

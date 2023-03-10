@@ -1,8 +1,0 @@
-Player x()
-{
-	Player i;
-}
-Player y()
-{
-	Player j;
-}
